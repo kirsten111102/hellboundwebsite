@@ -1,0 +1,79 @@
+body{
+    margin-top: 3%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#avtgame{
+    width: 3%;
+}
+
+#lol{
+    background-image: url('/images/background/lol_web_background.jpeg');
+    color: white;
+}
+
+#dota2{
+    background-image: url('/images/background/dota2_web_background.jpeg');
+    background-size: contain;
+    background-attachment: fixed;
+    color: white;
+}
+
+#fifafc{
+    background-image: url('/images/background/fifafc_web_background.jpeg');
+    color: white;
+}
+
+#cs2{
+    background-image: url('/images/background/cs2_web_background.jpeg');
+    color: orange;
+}
+
+#valorant{
+    background-image: url('/images/background/valorant_home_background.jpeg');
+    color: white;
+}
+
+#rocketleague{
+    background-image: url('/images/background/rocketleague_home_background.jpg');
+    color: whitesmoke;
+}
+
+#aow{
+    background-image: url('/images/background/aow_web_background.webp');
+    color: yellow;
+}
+
+#cod{
+    background-image: url('/images/background/cod_web_background.jpg');
+}
+
+#starcraft2{
+    background-image: url('/images/background/starcraft2_web_background.jpeg');
+    color: silver;
+}
+
+#smashbros{
+    background-image: url('/images/background/smashbros_web_background.jpeg');
+}
+
+#shadow5{
+    background-image: url('/images/background/shadow5_web_background.jpeg');
+    color: white;
+}
+
+#truckmaniac{
+    background-image: url('/images/background/truckmaniac_web_background.jpg');
+    color: white;
+}
+
+#overwatch{
+    background-image: url('/images/background/overwatch_web_background.jpeg');
+}
+
+#mlbb{
+    background-image: url('/images/background/mlbb_web_background.jpg');
+    color: gold;
+}

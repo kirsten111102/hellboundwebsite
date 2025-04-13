@@ -1,0 +1,134 @@
+@font-face {
+    font-family: 'dota2font';
+    src: url('/fonts/OPTIwtcGoudy-Medium.otf');
+}
+
+@font-face {
+    font-family: 'lolfont';
+    src: url('/fonts/League.otf');
+}
+
+@font-face {
+    font-family: 'cs2logofont';
+    src: url('/fonts/cs_regular.ttf');
+}
+
+@font-face {
+    font-family: 'fifafcfont';
+    src: url('/fonts/EASPORTS15.ttf');
+}
+
+@font-face {
+    font-family: 'valorantfont';
+    src: url('/fonts/Valorant\ Font.ttf');
+}
+
+@font-face {
+    font-family: 'codfont';
+    src: url('/fonts/CallOfOpsDutyIi-7Bgm4.ttf');
+}
+
+@font-face {
+    font-family: 'rocketleaguefont';
+    src: url('/fonts/futura/futur.ttf');
+}
+
+@font-face {
+    font-family: 'aowfont';
+    src: url('/fonts/PirataOne-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'shadow5font';
+    src: url('/fonts/Audiowide-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'starcraftfont';
+    src: url('/fonts/Starcraft\ Normal.ttf');
+}
+
+@font-face {
+    font-family: 'smashbrosfont';
+    src: url('/fonts/super_smash_4_1_by_pokemon_diamond-d7zxu6d.ttf');
+}
+
+@font-face {
+    font-family: 'truckmaniacfont';
+    src: url('/fonts/VehicleBreaksDown-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'mlbbfont';
+    src: url('/fonts/futura/Futura\ XBlk\ BT.ttf');
+}
+
+@font-face {
+    font-family: 'mlbblogofont';
+    src: url('/fonts/heroes_legend/Heroes\ Legend.ttf');
+}
+
+@font-face {
+    font-family: 'overwatchfont';
+    src: url('/fonts/BITSUMIS.TTF');
+}
+
+#dota2{
+    font-family: 'dota2font', sans-serif;
+}
+
+#lol{
+    font-family: 'lolfont', sans-serif;
+}
+
+#cs2{
+    font-family: 'cs2logofont', sans-serif;
+}
+
+#fifafc{
+    font-family: 'fifafcfont', 'sans-serif';
+}
+
+#valorant{
+    font-family: 'valorantfont', 'sans-serif';
+}
+
+#cod{
+    font-family: 'codfont', 'sans-serif';
+}
+
+#rocketleague{
+    font-family: 'rocketleaguefont', 'sans-serif';
+}
+
+#aow{
+    font-family: 'aowfont', 'sans-serif';
+}
+
+#shadow5{
+    font-family: 'shadow5font', 'sans-serif';
+}
+
+#starcraft2{
+    font-family: 'starcraftfont', 'sans-serif';
+}
+
+#smashbros{
+    font-family: 'smashbrosfont', 'sans-serif';
+}
+
+#truckmaniac{
+    font-family: 'truckmaniacfont', 'sans-serif';
+}
+
+#mlbb{
+    font-family: 'mlbbfont', 'sans-serif';
+}
+
+#mlbb h1{
+    font-family: 'mlbblogofont', 'sans-serif';
+}
+
+#overwatch{
+    font-family: 'overwatchfont', 'sans-serif';
+}
