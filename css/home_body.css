@@ -1,0 +1,150 @@
+body{
+    margin-top: 3%;
+    width: 98.5%;
+    height: 98.5%;
+    background-image: url('/images/background/hellbound_home_background.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+#main{
+    display: flex;
+}
+
+.introduction{
+    width: 70%;
+    border: 1px solid;
+    font-size: large;
+}
+
+.introduction p{
+    padding: 0 0.5%;
+}
+
+.teams{
+    width: 30%;
+    height: 100%;
+    margin-left: 0.25%;
+    border: 1px solid;
+    padding: 0 0.5% 1.5% 0.5%;
+}
+
+.teamlist{
+    display: grid;
+    column-gap: 0.5%;
+    row-gap: 0.5%;
+    grid-template-columns: auto auto;
+}
+
+.teamlist .game{
+    text-align: center;
+    height: 80px;
+    border: 1px solid;
+    margin: 0 0.25% 0.25% 0;
+    position: relative;
+}
+
+.avtgame{
+    width: 20%;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*background-teams*/
+a{
+    text-decoration: none;
+    color: black;
+    background-color: whitesmoke;
+}
+
+a .game:hover{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+}
+
+#lol .game:hover{
+    background-image: url('/images/background/lol_home_background.jpg');
+    color: rgb(255, 223, 0);
+    border: 1px solid rgb(255, 223, 0);
+}
+
+#dota2 .game:hover{
+    background-image: url('/images/background/dota2_home_background.jpeg');
+    color: red;
+    border: 1px solid;
+}
+
+#rocketleague .game:hover{
+    background-image: url('/images/background/rocketleague_home_background.jpg');
+    color: #00bbff;
+    border: 1px solid #0060ff;
+}
+
+#cs2 .game:hover{
+    background-image: url('/images/background/cs2_home_background.jpeg');
+    border: 1px solid orange;
+}
+
+#fifafc .game:hover{
+    background-image: url('/images/background/fifafc_home_background.jpg');
+    color: white;
+    border: 1px solid;
+}
+
+#aow .game:hover{
+    background-image: url('/images/background/aow_home_background.webp');
+    color: yellow;
+    border: 1px solid rgb(255, 223, 0);
+}
+
+#cod .game:hover{
+    background-image: url('/images/background/cod_home_background.jpeg');
+    color: whitesmoke;
+    border: 1px solid white;
+}
+
+#starcraft2 .game:hover{
+    background-image: url('/images/background/starcraft2_home_background.jpeg');
+    color: silver;
+    border: 1px solid silver;
+}
+
+#valorant .game:hover{
+    background-image: url('/images/background/valorant_home_background.jpeg');
+    color: red;
+    border: 1px solid red;
+}
+
+#smashbros .game:hover{
+    background-image: url('/images/background/smashbros_home_background.jpeg');
+    color: whitesmoke;
+    border: 1px solid;
+}
+
+#truckmaniac .game:hover{
+    background-image: url('/images/background/truckmaniac_home_background.jpeg');
+    border: 1px solid #ff7f7f;
+}
+
+#shadow5 .game:hover{
+    background-image: url('/images/background/shadow5_home_background.jpeg');
+    color: white;
+    border: 1px solid white;
+}
+
+#overwatch .game:hover{
+    background-image: url('/images/background/overwatch_home_background.webp');
+    color: white;
+    border: 1px solid;
+}
+
+#mlbb .game:hover{
+    background-image: url('/images/background/mlbb_home_background.jpg');
+    color: gold;
+    border: 1px solid gold;
+}
