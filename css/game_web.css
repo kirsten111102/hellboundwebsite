@@ -15,7 +15,7 @@ body{
 }
 
 #dota2{
-    background-image: url('/images/background/dota2_web_background.jpeg');
+    background-image: url('/images/background/dota2_web_background.jpg');
     background-size: contain;
     background-attachment: fixed;
     color: white;
