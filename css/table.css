@@ -1,37 +1,58 @@
-#legends{
+table{
     border-collapse: collapse;
+    background: grey;
+}
+
+table tr td, tr th{
+    border: 1px solid;
+}
+
+table tr .focus{
+    width: 15%;
+    text-align: center;
+}
+
+#transfers{
+    font-family: 'Times New Roman', Times, serif;
+    border: 1px solid;
+    width: 80%;
+}
+
+#transfers tr th{
+    font-size: x-large;
+}
+
+#transfers tr td{
+    border: none;
+    border-right: 1px solid;
+}
+
+#legends{
     width: 80%;
 }
 
 #legends tr td, #legends tr th{
-    border: 1px solid;
     width: 5%;
 }
 
 #legends tr .focus{
     width: 20%;
-    text-align: center;
-}
-
-#roster{
-    border-collapse: collapse;
 }
 
 #roster tr td, #roster tr th{
-    border: 1px solid;
     width: 20%;
 }
 
-#achievements{
-    border-collapse: collapse;
-}
-
 #achievements tr td, #achievements tr th{
-    border: 1px solid;
     text-align: center;
     width: 20%;
 }
 
 #achievements tr .time{
     text-align: left;
+}
+
+#social_media tr td{
+    border: none;
+    background: red;
 }
