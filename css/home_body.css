@@ -30,14 +30,14 @@ body{
     padding: 0 0.5% 1.5% 0.5%;
 }
 
-.teamlist{
+#teamlist{
     display: grid;
     column-gap: 0.5%;
     row-gap: 0.5%;
     grid-template-columns: auto auto;
 }
 
-.teamlist .game{
+#teamlist .game{
     text-align: center;
     height: 80px;
     border: 1px solid;
