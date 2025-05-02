@@ -9,7 +9,10 @@
     <link href="/css/game_web.css" rel="stylesheet">
     <link href="/css/font.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/images/games/mlbb.png">
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.min.js"></script>
     <script src="/js/script.js"></script>
+    <script src="/js/database/db.js"></script>
+    <script src="/js/database/showdb.js"></script>
     <title>Hellbound Esports Mobile Legends Team Website</title>
 </head>
 <div id="header"></div>
@@ -17,21 +20,13 @@
     <center><h1><img src="/images/games/mlbb.png" id="avtgame"> Mobile Legends</h1></center>
     <h2>Transfer Information</h2>
     <table id="transfers">
-        <tr>
+        <thead>
+            <tr>
             <th>News</th>
             <th>Time</th>
-        </tr>
-        <tr>
-            <td>Istaf left Hellbound Esports</td>
-            <td class="focus">12/2061</td>
-        </tr>
-        <tr>
-            <td>Tryfish left Hellbound Esports</td>
-        </tr>
-        <tr>
-            <td>Awus moved to Hellbound Esports first team as a potential roamer from academy</td>
-            <td class="focus">1/4/2063</td>
-        </tr>
+            </tr>
+        </thead>
+        <tbody id="news"></tbody>
     </table>
     <h2>Main Roster</h2>
     <table id="roster">
@@ -106,5 +101,9 @@
         </tr>
     </table>
 </body>
+<script>
+    const bodyId = document.body.id;
+    showTransferNews(bodyId);
+</script>
 <div id="footer"></div>
 </html>
