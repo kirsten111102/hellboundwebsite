@@ -8,7 +8,10 @@
     <link href="/css/table.css" rel="stylesheet">
     <link href="/css/game_web.css" rel="stylesheet">
     <link href="/css/font.css" rel="stylesheet">
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.min.js"></script>
     <script src="/js/script.js"></script>
+    <script src="/js/database/db.js"></script>
+    <script src="/js/database/showdb.js"></script>
     <link rel="icon" type="image/x-icon" href="/images/games/cod.png">
     <title>Hellbound Esports Fall of Duty Team Website</title>
 </head>
@@ -17,30 +20,13 @@
     <center><h1><img src="/images/games/cod.png" id="avtgame"> Fall of Duty</h1></center>
     <h2>Transfer Information</h2>
     <table id="transfers">
-        <tr>
+        <thead>
+            <tr>
             <th>News</th>
             <th>Time</th>
-        </tr>
-        <tr>
-            <td>Tibeb, Midush, Dridoj, Grigev left Hellbound Esports</td>
-            <td class="focus">12/2061</td>
-        </tr>
-        <tr>
-            <td>Yckov79 will be new coach for Hellbound Esports</td>
-            <td class="focus">8/1/2062</td>
-        </tr>
-        <tr>
-            <td>Rys will be new slayer for Hellbound Esports</td>
-            <td class="focus">8/1/2062</td>
-        </tr>
-        <tr>
-            <td>Welcome Ebow, Pezul for joining Hellbound Esports</td>
-            <td class="focus">5/2/2062</td>
-        </tr>
-        <tr>
-            <td>Past moved to the first roster as Sub Slayer</td>
-            <td class="focus">1/2/2063</td>
-        </tr>
+            </tr>
+        </thead>
+        <tbody id="news"></tbody>
     </table>
     <h2>Main Roster</h2>
     <table id="roster">
@@ -116,5 +102,9 @@
         </tr>
     </table>
 </body>
+<script>
+    const bodyId = document.body.id;
+    showTransferNews(bodyId);
+</script>
 <div id="footer"></div>
 </html>

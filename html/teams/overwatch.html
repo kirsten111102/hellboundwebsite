@@ -9,7 +9,10 @@
     <link href="/css/game_web.css" rel="stylesheet">
     <link href="/css/font.css" rel="stylesheet">
     <link rel="icon" type="image/x-icon" href="/images/games/overwatch.png">
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.min.js"></script>
     <script src="/js/script.js"></script>
+    <script src="/js/database/db.js"></script>
+    <script src="/js/database/showdb.js"></script>
     <title>Hellbound Esports Overwatch Team Website</title>
 </head>
 <div id="header"></div>
@@ -17,22 +20,13 @@
     <center><h1><img src="/images/games/overwatch.png" id="avtgame"> Overwatch</h1></center>
     <h2>Transfer Information</h2>
     <table id="transfers">
-        <tr>
+        <thead>
+            <tr>
             <th>News</th>
             <th>Time</th>
-        </tr>
-        <tr>
-            <td>Dirirt moves to Floxu from Hellbound Esports</td>
-            <td class="focus">1/1/2062</td>
-        </tr>
-        <tr>
-            <td>Spenuck joins Hellbound Esports</td>
-            <td class="focus">1/1/2062</td>
-        </tr>
-        <tr>
-            <td>Jep joins Hellbound Esports first team from academy</td>
-            <td class="focus">31/5/2063</td>
-        </tr>
+            </tr>
+        </thead>
+        <tbody id="news"></tbody>
     </table>
     <h2>Main Roster</h2>
     <table id="roster">
@@ -111,5 +105,9 @@
         </tr>
     </table>
 </body>
+<script>
+    const bodyId = document.body.id;
+    showTransferNews(bodyId);
+</script>
 <div id="footer"></div>
 </html>
