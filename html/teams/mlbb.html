@@ -35,36 +35,7 @@
             <th>Player</th>
             <th>Age</th>
         </tr>
-        <tr>
-            <td>Gold Laner</td>
-            <td>Ishysh37</td>
-            <td>19</td>
-        </tr>
-        <tr>
-            <td>Jungler</td>
-            <td>Poh</td>
-            <td>21</td>
-        </tr>
-        <tr>
-            <td>Mid Laner</td>
-            <td>Wurep</td>
-            <td>25</td>
-        </tr>
-        <tr>
-            <td>Exp Laner</td>
-            <td>Triposh</td>
-            <td>21</td>
-        </tr>
-        <tr>
-            <td>Roamer</td>
-            <td>Awus</td>
-            <td>16</td>
-        </tr>
-        <tr>
-            <td>Roamer (Sub)</td>
-            <td>Valp</td>
-            <td>22</td>
-        </tr>
+        <tbody id="player_list"></tbody>
         <tr>
             <td>Coach</td>
             <td>Plepor</td>
@@ -104,6 +75,7 @@
 <script>
     const bodyId = document.body.id;
     showTransferNews(bodyId);
+    showPlayer(bodyId);
 </script>
 <div id="footer"></div>
 </html>

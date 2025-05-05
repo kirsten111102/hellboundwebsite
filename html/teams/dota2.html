@@ -24,34 +24,7 @@
             <th>News</th>
             <th>Time</th>
         </tr>
-        <tr>
-            <td>Sastep, Cast are going to leave Hellbound Esports after the fanstatic campaign in The International 62</td>
-            <td class="focus">6/12/2062</td>
-        </tr>
-        <tr>
-            <td>Sastep going to JD Gaming</td>
-            <td class="focus">9/12/2062</td>
-        </tr>
-        <tr>
-            <td>Welcome Plewort to Hellbound Esports family</td>
-            <td class="focus">12/12/2062</td>
-        </tr>
-        <tr>
-            <td>Cast going to DPlus Kia</td>
-            <td class="focus">16/12/2062</td>
-        </tr>
-        <tr>
-            <td>Hellbound Esports takes Eduh from JD Gaming for 2.2 million dollars!!</td>
-            <td class="focus">16/12/2062</td>
-        </tr>
-        <tr>
-            <td>Taspym7 joins Hellbound Esports from Karmine Corp</td>
-            <td class="focus">3/1/2063</td>
-        </tr>
-        <tr>
-            <td>Yrtis joins Dplus Kia from Hellbound Esports academy as a new mid player.</td>
-            <td class="focus">5/8/2063</td>
-        </tr>
+        <tbody id="news"></tbody>
     </table>
     <h2>Legends</h2>
     <table id="legends">
@@ -169,36 +142,7 @@
             <th>Player</th>
             <th>Age</th>
         </tr>
-        <tr>
-            <td>Carry</td>
-            <td>Plewort</td>
-            <td>21</td>
-        </tr>
-        <tr>
-            <td>Mid Lane</td>
-            <td>Eduh</td>
-            <td>18</td>
-        </tr>
-        <tr>
-            <td>Off Lane</td>
-            <td>Taspym7</td>
-            <td>19</td>
-        </tr>
-        <tr>
-            <td>Roamer</td>
-            <td>Draquck</td>
-            <td>19</td>
-        </tr>
-        <tr>
-            <td>Support</td>
-            <td>Jyck</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td>Off Lane (Sub)</td>
-            <td>Qoselp</td>
-            <td>27</td>
-        </tr>
+        <tbody id="player_list"></tbody>
         <tr>
             <td>Coach</td>
             <td>Ihost</td>
@@ -249,5 +193,10 @@
         </tr>
     </table>
 </body>
+<script>
+    const bodyId = document.body.id;
+    showTransferNews(bodyId);
+    showPlayer(bodyId);
+</script>
 <div id="footer"></div>
 </html>

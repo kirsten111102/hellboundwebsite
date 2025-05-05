@@ -75,26 +75,7 @@
             <th>Player</th>
             <th>Age</th>
         </tr>
-        <tr>
-            <td>Main Player</td>
-            <td>Wan</td>
-            <td>23</td>
-        </tr>
-        <tr>
-            <td>Main Player</td>
-            <td>Get</td>
-            <td>21</td>
-        </tr>
-        <tr>
-            <td>Main Player</td>
-            <td>Ickot</td>
-            <td>23</td>
-        </tr>
-        <tr>
-            <td>Substitution</td>
-            <td>Clig</td>
-            <td>19</td>
-        </tr>
+        <tbody id="player_list"></tbody>
         <tr>
             <td>Coach</td>
             <td>Dyk</td>
@@ -142,6 +123,7 @@
 <script>
     const bodyId = document.body.id;
     showTransferNews(bodyId);
+    showPlayer(bodyId);
 </script>
 <div id="footer"></div>
 </html>
