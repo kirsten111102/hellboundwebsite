@@ -55,6 +55,45 @@ async function showTransferNews(bodyId){
     }
 }
 
+async function showPlayer(bodyId) {
+    try {
+        const players = await db.player.where('team').equals(bodyId).toArray();
+        console.log(players.length)
+        const player_list = document.getElementById("player_list");
+        player_list.innerHTML = "";
+
+        players.forEach(async (player) => {
+            const row = document.createElement("tr");
+
+            const position = await db.position.where('id').equals(player.position).toArray();
+            if(position.length > 0){
+                if (player.status === 'main'){
+                    row.innerHTML = `<td>${position[0].pos}</td>`;
+                }
+                else row.innerHTML = `<td>${position[0].pos} (Sub)</td>`;
+                row.innerHTML += `
+                    <td>${player.name}</td>
+                    <td>${player.age}</td>
+                `;
+            }
+            else{
+                if (player.status === 'main'){
+                    row.innerHTML = `<td>Main Player</td>`;
+                }
+                else row.innerHTML = `<td>Substitution</td>`;
+                row.innerHTML += `
+                    <td>${player.name}</td>
+                    <td>${player.age}</td>
+                `;
+            }
+            
+            player_list.appendChild(row);
+            
+        });
+    } catch (error) {
+        console.error("Error loading players:", error);
+    }
+}
 
 document.addEventListener("DOMContentLoaded", showEsportsHomeTeam);
 document.addEventListener("DOMContentLoaded", showEsportsHeaderTeam);

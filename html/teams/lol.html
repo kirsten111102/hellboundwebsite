@@ -133,36 +133,7 @@
             <th>Player</th>
             <th>Age</th>
         </tr>
-        <tr>
-            <td>Top</td>
-            <td>Frik</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td>Jungle</td>
-            <td>Facak</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td>Mid</td>
-            <td>Prep</td>
-            <td>22</td>
-        </tr>
-        <tr>
-            <td>Bot</td>
-            <td>Cyl</td>
-            <td>23</td>
-        </tr>
-        <tr>
-            <td>Support</td>
-            <td>Egul</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>Bot (Sub)</td>
-            <td>Seck</td>
-            <td>19</td>
-        </tr>
+        <tbody id="player_list"></tbody>
         <tr>
             <td>Coach</td>
             <td>Gral</td>
@@ -217,6 +188,7 @@
 <script>
     const bodyId = document.body.id;
     showTransferNews(bodyId);
+    showPlayer(bodyId);
 </script>
 <div id="footer"></div>
 </html>

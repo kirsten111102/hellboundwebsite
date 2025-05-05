@@ -35,36 +35,7 @@
             <th>Player</th>
             <th>Age</th>
         </tr>
-        <tr>
-            <td>Tank</td>
-            <td>Spenuck</td>
-            <td>18</td>
-        </tr>
-        <tr>
-            <td>Tank</td>
-            <td>Drah</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>Damage</td>
-            <td>Ulpom</td>
-            <td>18</td>
-        </tr>
-        <tr>
-            <td>Damage</td>
-            <td>Jep</td>
-            <td>15</td>
-        </tr>
-        <tr>
-            <td>Support</td>
-            <td>Syw</td>
-            <td>21</td>
-        </tr>
-        <tr>
-            <td>Damage (Sub)</td>
-            <td>Plijet</td>
-            <td>24</td>
-        </tr>
+        <tbody id="player_list"></tbody>
         <tr>
             <td>Coach</td>
             <td>Olpyst</td>
@@ -108,6 +79,7 @@
 <script>
     const bodyId = document.body.id;
     showTransferNews(bodyId);
+    showPlayer(bodyId);
 </script>
 <div id="footer"></div>
 </html>

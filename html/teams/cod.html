@@ -35,31 +35,7 @@
             <th>Player</th>
             <th>Age</th>
         </tr>
-        <tr>
-            <td>Slayer</td>
-            <td>Rys</td>
-            <td>22</td>
-        </tr>
-        <tr>
-            <td>Anchor</td>
-            <td>Pezul</td>
-            <td>22</td>
-        </tr>
-        <tr>
-            <td>Support</td>
-            <td>Ebow</td>
-            <td>18</td>
-        </tr>
-        <tr>
-            <td>Objective</td>
-            <td>Clyport</td>
-            <td>19</td>
-        </tr>
-        <tr>
-            <td>Slayer (Sub)</td>
-            <td>Past</td>
-            <td>15</td>
-        </tr>
+        <tbody id="player_list"></tbody>
         <tr>
             <td>Coach</td>
             <td>Yckov79</td>
@@ -105,6 +81,7 @@
 <script>
     const bodyId = document.body.id;
     showTransferNews(bodyId);
+    showPlayer(bodyId);
 </script>
 <div id="footer"></div>
 </html>

@@ -35,31 +35,7 @@
             <th>Player</th>
             <th>Age</th>
         </tr>
-        <tr>
-            <td>Leader</td>
-            <td>Zosh</td>
-            <td>17</td>
-        </tr>
-        <tr>
-            <td>Fragger</td>
-            <td>Spih</td>
-            <td>18</td>
-        </tr>
-        <tr>
-            <td>Watcher</td>
-            <td>Qest</td>
-            <td>21</td>
-        </tr>
-        <tr>
-            <td>Support</td>
-            <td>Usheck</td>
-            <td>20</td>
-        </tr>
-        <tr>
-            <td>Anchor</td>
-            <td>Dudav</td>
-            <td>22</td>
-        </tr>
+        <tbody id="player_list"></tbody>
         <tr>
             <td>Coach</td>
             <td>Hyrack</td>
@@ -103,6 +79,7 @@
 <script>
     const bodyId = document.body.id;
     showTransferNews(bodyId);
+    showPlayer(bodyId);
 </script>
 <div id="footer"></div>
 </html>
