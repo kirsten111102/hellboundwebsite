@@ -1,10 +1,9 @@
 body{
     margin-top: 3%;
-    width: 98.5%;
-    height: 98.5%;
     background-image: url('/images/background/hellbound_home_background.jpg');
     background-size: cover;
     background-repeat: no-repeat;
+    background-attachment: fixed;
     color: white;
 }
 
