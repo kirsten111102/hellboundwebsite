@@ -5,6 +5,7 @@ db.version(1).stores({
     transfer_news: "id, news, time, team_id",
     position: "id, pos, team_id",
     player: "++id, name, team, age, pos, status",
+    coach: "++id, name, team, age, status",
 });
 
 window.db = db;

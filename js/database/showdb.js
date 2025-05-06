@@ -58,7 +58,6 @@ async function showTransferNews(bodyId){
 async function showPlayer(bodyId) {
     try {
         const players = await db.player.where('team').equals(bodyId).toArray();
-        console.log(players.length)
         const player_list = document.getElementById("player_list");
         player_list.innerHTML = "";
 
@@ -89,6 +88,31 @@ async function showPlayer(bodyId) {
             
             player_list.appendChild(row);
             
+        });
+    } catch (error) {
+        console.error("Error loading players:", error);
+    }
+}
+
+async function showCoach(bodyId) {
+    try {
+        const coaches = await db.coach.where('team').equals(bodyId).toArray();
+        const coach_list = document.getElementById("coach_list");
+        player_list.innerHTML = "";
+
+        coaches.forEach(async (coach) => {
+            const row = document.createElement("tr");
+
+            if (coach.status === 'main'){
+                row.innerHTML = `<td>Coach</td>`;
+            }
+            else row.innerHTML = `<td>Coach (Sub)</td>`;
+            row.innerHTML += `
+                <td>${coach.name}</td>
+                <td>${coach.age}</td>
+            `;
+            
+            coach_list.appendChild(row);
         });
     } catch (error) {
         console.error("Error loading players:", error);
