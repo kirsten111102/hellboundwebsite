@@ -58,6 +58,7 @@ async function showTransferNews(bodyId){
 async function showPlayer(bodyId) {
     try {
         const players = await db.player.where('team').equals(bodyId).toArray();
+
         const player_list = document.getElementById("player_list");
         player_list.innerHTML = "";
 
@@ -85,9 +86,9 @@ async function showPlayer(bodyId) {
                     <td>${player.age}</td>
                 `;
             }
-            
+
             player_list.appendChild(row);
-            
+
         });
     } catch (error) {
         console.error("Error loading players:", error);
