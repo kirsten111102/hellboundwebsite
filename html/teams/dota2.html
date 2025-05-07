@@ -154,39 +154,9 @@
             <th>Major</th>
             <th>The International</th>
         </tr>
-        <tr>
-            <td class="time">Spring</td>
-            <td>
-                <p>APAC: 1</p>
-                <p>EU: 1</p>
-            </td>
-            <td>
-                <p>APAC: 4</p>
-            </td>
-            <td>7</td>
-            <td rowspan=3>8</td>
-        </tr>
-        <tr>
-            <td class="time">Summer</td>
-            <td>
-                <p>APAC: 2</p>
-                <p>EU: 1</p>
-            </td>
-            <td>
-                <p>APAC: 6</p>
-            </td>
-            <td>6</td>
-        </tr>
-        <tr>
-            <td class="time">Winter</td>
-            <td>
-                <p>APAC: 1</p>
-            </td>
-            <td>
-                <p>APAC: 2</p>
-            </td>
-            <td>3</td>
-        </tr>
+        <tr id="spring_trophy_list"></tr>
+        <tr id="summer_trophy_list"></tr>
+        <tr id="winter_trophy_list"></tr>
     </table>
 </body>
 <script>
@@ -194,6 +164,9 @@
     showTransferNews(bodyId);
     showPlayer(bodyId);
     showCoach(bodyId);
+    showSpringandWorldTrophies(bodyId);
+    showSummerTrophies(bodyId);
+    showWinterTrophies(bodyId);
 </script>
 <div id="footer"></div>
 </html>
