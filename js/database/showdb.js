@@ -120,5 +120,154 @@ async function showCoach(bodyId) {
     }
 }
 
+async function showSpringandWorldTrophies(bodyId) {
+    try {
+        const spring = await db.spring_rl.where('team_id').equals(bodyId).toArray();
+
+        const spring_l1 = spring.filter(item => item.id.toString().match(/\d(?!.*\d)/)[0] === '1' && item.wins > 0)
+        const spring_l2 = spring.filter(item => item.id.toString().match(/\d(?!.*\d)/)[0] === '2' && item.wins > 0)
+        const majors = await db.majors.where('team_id').equals(bodyId).toArray();
+        const worlds = await db.worlds.where('team_id').equals(bodyId).toArray();
+
+        const trophy_list = document.getElementById("spring_trophy_list");
+        trophy_list.innerHTML = `<td class="time">Spring</td>`;
+
+        if (spring_l2.length > 0){
+            const table_data = document.createElement('td');
+            for (const data of spring_l2){
+                const trophy_region = document.createElement('p')
+
+                const region = await db.regional.where('id').equals(data.regional).toArray();
+                trophy_region.innerHTML = `${data.wins} x ${region[0].name}`;
+                
+                table_data.appendChild(trophy_region)
+            }
+
+            trophy_list.innerHTML += table_data.outerHTML;
+        }
+        else trophy_list.innerHTML += `<td>0</td>`
+
+        if (spring_l1.length > 0){
+            const table_data = document.createElement('td');
+            for (const data of spring_l1){
+                const trophy_region = document.createElement('p')
+
+                const region = await db.regional.where('id').equals(data.regional).toArray();
+                trophy_region.innerHTML = `${data.wins} x ${region[0].name}`;
+                
+                table_data.appendChild(trophy_region)
+            }
+
+            trophy_list.innerHTML += table_data.outerHTML;
+        }
+        else trophy_list.innerHTML += `<td>0</td>`
+
+        trophy_list.innerHTML += `
+            <td>${majors[0].spring_wins}</td>
+            <td rowspan="3">${worlds[0].wins}</td>
+        `
+    } catch (error) {
+        console.error("Error loading Spring and World trophies:", error);
+    }
+}
+
+async function showSummerTrophies(bodyId) {
+    try {
+        const summer = await db.summer_rl.where('team_id').equals(bodyId).toArray();
+
+        const summer_l1 = summer.filter(item => item.id.toString().match(/\d(?!.*\d)/)[0] === '1' && item.wins > 0)
+        const summer_l2 = summer.filter(item => item.id.toString().match(/\d(?!.*\d)/)[0] === '2' && item.wins > 0)
+        const majors = await db.majors.where('team_id').equals(bodyId).toArray();
+
+        const trophy_list = document.getElementById("summer_trophy_list");
+        trophy_list.innerHTML = `<td class="time">Summer</td>`;
+
+        if (summer_l2.length > 0){
+            const table_data = document.createElement('td');
+            for (const data of summer_l2){
+                const trophy_region = document.createElement('p')
+
+                const region = await db.regional.where('id').equals(data.regional).toArray();
+                trophy_region.innerHTML = `${data.wins} x ${region[0].name}`;
+                
+                table_data.appendChild(trophy_region)
+            }
+
+            trophy_list.innerHTML += table_data.outerHTML;
+        }
+        else trophy_list.innerHTML += `<td>0</td>`
+
+        if (summer_l1.length > 0){
+            const table_data = document.createElement('td');
+            for (const data of summer_l1){
+                const trophy_region = document.createElement('p')
+
+                const region = await db.regional.where('id').equals(data.regional).toArray();
+                trophy_region.innerHTML = `${data.wins} x ${region[0].name}`;
+                
+                table_data.appendChild(trophy_region)
+            }
+
+            trophy_list.innerHTML += table_data.outerHTML;
+        }
+        else trophy_list.innerHTML += `<td>0</td>`
+
+        trophy_list.innerHTML += `
+            <td>${majors[0].summer_wins}</td>
+        `
+    } catch (error) {
+        console.error("Error loading Spring and World trophies:", error);
+    }
+}
+
+async function showWinterTrophies(bodyId) {
+    try {
+        const winter = await db.winter_rl.where('team_id').equals(bodyId).toArray();
+
+        const winter_l1 = winter.filter(item => item.id.toString().match(/\d(?!.*\d)/)[0] === '1' && item.wins > 0)
+        const winter_l2 = winter.filter(item => item.id.toString().match(/\d(?!.*\d)/)[0] === '2' && item.wins > 0)
+        const majors = await db.majors.where('team_id').equals(bodyId).toArray();
+
+        const trophy_list = document.getElementById("winter_trophy_list");
+        trophy_list.innerHTML = `<td class="time">Winter</td>`;
+
+        if (winter_l2.length > 0){
+            const table_data = document.createElement('td');
+            for (const data of winter_l2){
+                const trophy_region = document.createElement('p')
+
+                const region = await db.regional.where('id').equals(data.regional).toArray();
+                trophy_region.innerHTML = `${data.wins} x ${region[0].name}`;
+                
+                table_data.appendChild(trophy_region)
+            }
+
+            trophy_list.innerHTML += table_data.outerHTML;
+        }
+        else trophy_list.innerHTML += `<td>0</td>`
+
+        if (winter_l1.length > 0){
+            const table_data = document.createElement('td');
+            for (const data of winter_l1){
+                const trophy_region = document.createElement('p')
+
+                const region = await db.regional.where('id').equals(data.regional).toArray();
+                trophy_region.innerHTML = `${data.wins} x ${region[0].name}`;
+                
+                table_data.appendChild(trophy_region)
+            }
+
+            trophy_list.innerHTML += table_data.outerHTML;
+        }
+        else trophy_list.innerHTML += `<td>0</td>`
+
+        trophy_list.innerHTML += `
+            <td>${majors[0].winter_wins}</td>
+        `
+    } catch (error) {
+        console.error("Error loading Spring and World trophies:", error);
+    }
+}
+
 document.addEventListener("DOMContentLoaded", showEsportsHomeTeam);
 document.addEventListener("DOMContentLoaded", showEsportsHeaderTeam);
