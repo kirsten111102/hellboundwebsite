@@ -71,21 +71,17 @@ async function showPlayer(bodyId) {
                     row.innerHTML = `<td>${position[0].pos}</td>`;
                 }
                 else row.innerHTML = `<td>${position[0].pos} (Sub)</td>`;
-                row.innerHTML += `
-                    <td>${player.name}</td>
-                    <td>${player.age}</td>
-                `;
             }
             else{
                 if (player.status === 'main'){
                     row.innerHTML = `<td>Main Player</td>`;
                 }
                 else row.innerHTML = `<td>Substitution</td>`;
-                row.innerHTML += `
-                    <td>${player.name}</td>
-                    <td>${player.age}</td>
-                `;
             }
+            row.innerHTML += `
+                <td>${player.name}</td>
+                <td>${player.age}</td>
+            `;
 
             player_list.appendChild(row);
 
@@ -266,6 +262,68 @@ async function showWinterTrophies(bodyId) {
         `
     } catch (error) {
         console.error("Error loading Spring and World trophies:", error);
+    }
+}
+
+async function showLegends(bodyId) {
+    try {
+        const legends = await db.legends.where('team').equals(bodyId).toArray();
+        legends.sort((a, b) => {
+            const pos_compare = a.pos.localeCompare(b.pos)
+            if (pos_compare !==0) return pos_compare
+            return b.age - a.age;
+        });
+
+        const player_list = document.getElementById("legend_list");
+        player_list.innerHTML = "";
+
+        legends.forEach(async (player) => {
+            const row = document.createElement("tr");
+
+            const position = await db.position.where('id').equals(player.pos).toArray();
+            if(position.length > 0){
+                row.innerHTML = `
+                    <td>${position[0].pos}</td>
+                    <td>${player.name}</td>
+                    <td>${player.age}</td>
+                `;
+            }
+            else{
+                row.innerHTML = `
+                    <td>${player.name}</td>
+                    <td>${player.age}</td>
+                `;
+            }
+
+            const achievements = player.achievement.split('; ')
+            const data = document.createElement('td');
+            data.className = "focus"
+            for (const trophies of achievements){
+                const data_part = document.createElement('p')
+                data_part.innerHTML = `${trophies}`
+                data.appendChild(data_part)
+            }
+            row.innerHTML += data.outerHTML;
+            switch (player.status){
+                case 'main':
+                    row.innerHTML += `<td class="focus">Main - ${player.current_team}</td>`
+                    break;
+                case 'subs':
+                    row.innerHTML += `<td class="focus">Substitution - ${player.current_team}</td>`
+                    break;
+                case 'inactive':
+                    row.innerHTML += `<td class="focus">Inactive</td>`
+                    break;
+                case 'retired':
+                    row.innerHTML += `<td class="focus">Retired</td>`
+                    break;
+            }
+
+            player_list.appendChild(row);
+
+        });
+    } catch (error) {
+        console.error("Error loading players:", error);
     }
 }
 
