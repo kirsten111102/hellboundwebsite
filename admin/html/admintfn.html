@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.min.js"></script>
+    <script src="/admin/js/database/db.js"></script>
+    <script src="/admin/js/database/esportsteams.js"></script>
+    <script src="/admin/js/database/transfernews.js"></script>
+    <script src="/admin/js/database/showdb.js"></script>
+    <script src="/admin/js/script.js"></script>
+    <link href="/admin/css/admintfn.css" rel="stylesheet">
+    <link href="/admin/css/header.css" rel="stylesheet">
+    <title>Admin - Transfer News</title>
+</head>
+<div id="header"></div>
+<body>
+    <div class="news_zone">
+        <div id="form">
+            <h2>Add News</h2>
+            <form id="news_form">
+                <div class="form-row">
+                    <label for="team">eSports team:</label>
+                    <select name="team" id="team" class="team"></select>
+                </div>
+            
+                <div class="form-row">
+                    <label for="news" id="textarea_label">News:</label>
+                    <textarea id="news" class="news" rows="5" cols="20"></textarea>
+                </div>
+            
+                <div class="form-row">
+                    <label for="time">Time:</label>
+                    <input type="date" id="time" class="time">
+                </div>
+                <br><input type="submit" value="Add" class="btn">
+            </form>
+
+            <h2>Update News</h2>
+            <form id="update">
+                <div class="form-row">
+                    <label for="id">ID:</label>
+                    <input type="text" id="update_id" class="id">
+                </div>
+
+                <div class="form-row">
+                    <label for="news">News:</label>
+                    <textarea id="update_news" class="news" rows="5" cols="20"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <label for="team">eSports team:</label>
+                    <select name="team" id="update_team" class="team"></select>
+                </div>
+
+                <div class="form-row">
+                    <label for="time">Time:</label>
+                    <input type="text" id="update_time" class="time">
+                </div>
+                <br>
+                <input type="submit" value="Update" class="btn">
+                <input type="submit" value="Search" class="btn" id="updatesearchBtn">
+            </form>
+
+            <h2>Delete News</h2>
+            <form id="delete">
+                <div class="form-row">
+                    <label for="id">ID:</label>
+                    <input type="text" id="delete_id" class="id">
+                </div>
+
+                <div class="form-row">
+                    <label for="news">News:</label>
+                    <textarea id="delete_news" class="news" rows="5" cols="20"></textarea>
+                </div>
+
+                <div class="form-row">
+                    <label for="team">eSports team:</label>
+                    <select name="team" id="delete_team" class="team"></select>
+                </div>
+                
+                <div class="form-row">
+                    <label for="time">Time:</label>
+                    <input type="text" id="delete_time" class="time">
+                </div>
+                <br>
+                <input type="submit" value="Delete" class="btn">
+                <input type="submit" value="Search" class="btn" id="deletesearchBtn">
+            </form>
+        </div>
+
+        <div id="table_news">
+            <h2>Transfer News</h2>
+            <div id="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>News</th>
+                            <th>Time</th>
+                            <th>Team</th>
+                        </tr>
+                    </thead>
+                    <tbody id="news_list"></tbody>
+                </table>
+            </div>
+            
+            <!--<button onclick="deleteTransferNews()">Delete All</button>-->
+            <!--<button onclick="addTransferNews()">Add All</button>-->
+        </div>
+    </div>
+    
+</body>
+<script>
+    document.getElementById('news_form').addEventListener(
+    'submit', async (e) => {
+        //e.preventDefault();
+
+        const form = e.target;
+
+        const news = form.news.value;
+        const team = form.team.value;
+        const time_input = form.time.value;
+
+        const date = time_input.split("-");
+        const time = `${parseInt(date[2])}/${parseInt(date[1])}/${parseInt(date[0])}`;
+
+        const ids = [];
+        const transfer_news = await db.transfer_news.where('team_id').equals(team).toArray();
+        
+        transfer_news.forEach(transfer => {
+            const id = transfer.id.match(/^([a-zA-Z]+\d*)(\d+)$/);
+
+            ids.push(parseInt(id[2]));
+        });
+
+        new_id = team + (Math.max(...ids) + 1);
+        
+        await db.transfer_news.add({ id: new_id, news, time, team_id: team });
+
+        console.log('Saved to Dexie:', { news, team, time });
+
+        //form.reset();
+    });
+
+    document.getElementById('update').addEventListener(
+    'submit', async (e) => {
+        //e.preventDefault();
+
+        const id = document.getElementById('update_id').value;
+
+        const updatedData = {
+            news: document.getElementById('update_news').value,
+            team_id: document.getElementById('update_team').value,
+            time: document.getElementById('update_time').value
+        };
+
+        const transfer_news = await db.transfer_news
+            .where('id')
+            .equalsIgnoreCase(id)
+            .toArray();
+
+        if (transfer_news.length === 0) {
+            alert('Transfer not found!');
+            return;
+        }
+
+        for (const transfer of transfer_news) {
+            await db.transfer_news.update(transfer.id, updatedData);
+            console.log(`Updated transfer: ${transfer.id} in team ${transfer.team_id}`);
+        }
+    });
+
+    document.getElementById('delete').addEventListener(
+    'submit', async (e) => {
+        e.preventDefault();
+
+        const id = document.getElementById('delete_id').value;
+
+        const deletedData = {
+            news: document.getElementById('delete_news').value,
+            team_id: document.getElementById('delete_team').value,
+            time: document.getElementById('delete_time').value
+        };
+
+        const transfer_news = await db.transfer_news
+            .where('id')
+            .equalsIgnoreCase(id)
+            .toArray();
+        console.log(transfer_news);
+
+        if (transfer_news.length === 0) {
+            alert('Transfer not found!');
+            return;
+        }
+
+        for (const transfer of transfer_news) {
+            await db.transfer_news.delete(transfer.id, deletedData);
+            console.log(`Deleted transfer: ${transfer.id} in team ${transfer.team_id}`);
+        }
+    });
+
+    document.getElementById('updatesearchBtn').addEventListener(
+    'click', async (e) => {
+        e.preventDefault();
+
+        const id = document.getElementById('update_id').value;
+        
+        const transfer = await db.transfer_news.where('id').equals(id).first();
+        console.log(transfer);
+
+        if (transfer) {
+            document.getElementById('update_news').value = transfer.news;
+            document.getElementById('update_time').value = transfer.time;
+            document.getElementById('update_team').value = transfer.team_id;
+        } else {
+            alert('Transfer not found.');
+        }
+    });
+
+    document.getElementById('deletesearchBtn').addEventListener(
+    'click', async (e) => {
+        e.preventDefault();
+
+        const id = document.getElementById('delete_id').value;
+
+        const transfer = await db.transfer_news.where('id').equals(id).first();
+        console.log(transfer);
+
+        if (transfer) {
+            document.getElementById('delete_news').value = transfer.news;
+            document.getElementById('delete_time').value = transfer.time;
+            document.getElementById('delete_team').value = transfer.team_id;
+        } else {
+            alert('Transfer not found.');
+        }
+    });
+</script>
+</html>

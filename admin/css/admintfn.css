@@ -1,0 +1,71 @@
+.news_zone{
+    display: flex;
+}
+
+#form{
+    margin-right: 1%;
+    width: 22%;
+    overflow-y: scroll;
+    height: 92vh;
+}
+
+form{
+    border: 1px solid;
+    width: 100%;
+    padding-bottom: 11%;
+    padding-top: 1%;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 1%;
+}
+
+input{
+    width: 53%;
+    font-size: larger;
+}
+
+label {
+    width: 40%;
+    font-size: larger;
+    margin-bottom: 1%;
+    display: flex;
+    align-items: center;
+}
+
+.team{
+    font-size: larger;
+    width: 55%;
+}
+
+.btn{
+    width: 40%;
+    float: right;
+    margin-right: 1%;
+}
+
+textarea{
+    resize: none;
+}
+
+#table_news{
+    width: 70%;
+}
+
+table{
+    width: 100%;
+    border: 1px solid;
+    border-collapse: collapse;
+}
+
+#content{
+    overflow-y: scroll;
+    height: 80vh;
+    margin-bottom: 1%;
+}
+
+tr th, tr td{
+    width: 10%;
+    border: 1px solid;
+}
