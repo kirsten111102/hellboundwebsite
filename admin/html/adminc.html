@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.min.js"></script>
+    <script src="/admin/js/database/db.js"></script>
+    <script src="/admin/js/database/esportsteams.js"></script>
+    <script src="/admin/js/database/coach.js"></script>
+    <script src="/admin/js/database/showdb.js"></script>
+    <script src="/admin/js/script.js"></script>
+    <script src="/admin/js/exportdata.js"></script>
+    <link href="/admin/css/adminc.css" rel="stylesheet" />
+    <link href="/admin/css/header.css" rel="stylesheet" />
+    <title>Admin - Coach</title>
+  </head>
+  <div id="header"></div>
+  <body>
+    <div class="coach_zone">
+      <div id="form">
+        <h2>Add Coach</h2>
+        <form id="coach_form">
+          <label for="team">eSports team:</label>
+          <select name="team" id="team"></select>
+          <br /><label for="name">Ingame Coach name:</label>
+          <input type="text" id="name" class="name" />
+          <br /><label for="name">Age:</label>
+          <input type="number" id="age" class="age" />
+          <br /><label for="status">Status:</label>
+          <select name="status" id="status">
+            <option value="main" id="main">Main</option>
+            <option value="subs" id="subs">Substitution</option>
+            <option value="inactive" id="inactive">Inactive</option>
+          </select>
+          <br /><input type="submit" value="Add" class="btn" />
+        </form>
+
+        <h2>Update Coach</h2>
+        <form id="update">
+          <label for="name">Ingame Coach name:</label>
+          <input type="text" id="update_name" class="name" />
+          <br /><label for="team">eSports team:</label>
+          <select name="team" id="update_team"></select>
+          <br /><label for="name">Age:</label>
+          <input type="number" id="update_age" class="age" />
+          <br /><label for="status">Status:</label>
+          <select name="status" id="update_status">
+            <option value="main" id="main">Main</option>
+            <option value="subs" id="subs">Substitution</option>
+            <option value="inactive" id="inactive">Inactive</option>
+          </select>
+          <br />
+          <input type="submit" value="Update" class="btn" />
+          <input
+            type="submit"
+            value="Search"
+            class="btn"
+            id="updatesearchBtn"
+          />
+        </form>
+
+        <h2>Delete Coach</h2>
+        <form id="delete">
+          <label for="name">Ingame Coach name:</label>
+          <input type="text" id="delete_name" class="name" />
+          <br /><label for="team">eSports team:</label>
+          <select name="team" id="delete_team"></select>
+          <br /><label for="name">Age:</label>
+          <input type="number" id="delete_age" class="age" />
+          <br /><label for="status">Status:</label>
+          <select name="status" id="delete_status">
+            <option value="main" id="main">Main</option>
+            <option value="subs" id="subs">Substitution</option>
+            <option value="inactive" id="inactive">Inactive</option>
+          </select>
+          <br />
+          <input type="submit" value="Delete" class="btn" />
+          <input
+            type="submit"
+            value="Search"
+            class="btn"
+            id="deletesearchBtn"
+          />
+        </form>
+
+        <h2>Delete Coach by Id</h2>
+        <form id="delete_by_id">
+          <label for="id">ID:</label>
+          <input type="text" id="delete_id" class="id" />
+          <br />
+          <input type="submit" value="Delete" class="btn" />
+        </form>
+      </div>
+
+      <div id="table_coach">
+        <h2>Show Coach</h2>
+        <div id="content">
+          <table>
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Status</th>
+                <th>Team</th>
+              </tr>
+            </thead>
+            <tbody id="coach_list"></tbody>
+          </table>
+        </div>
+
+        <!--<button onclick="deleteCoaches()">Delete All</button>-->
+        <button onclick="addAge()">+1 years old</button>
+        <!--<button onclick="addEsportsTeam()">Add Team</button>-->
+      </div>
+    </div>
+  </body>
+  <script>
+    /*const bodyId = document.body.id;
+    showTeamTransferNews(bodyId);*/
+
+    const team_select = document.getElementById("team");
+    team_select.addEventListener("change", () => {
+      const team_id = team_select.value;
+    });
+
+    const update_team_select = document.getElementById("update_team");
+    update_team_select.addEventListener("change", () => {
+      const update_team_id = update_team_select.value;
+    });
+
+    const delete_team_select = document.getElementById("delete_team");
+    delete_team_select.addEventListener("change", () => {
+      const delete_team_id = delete_team_select.value;
+    });
+
+    document
+      .getElementById("coach_form")
+      .addEventListener("submit", async (e) => {
+        //e.preventDefault();
+
+        const form = e.target;
+
+        const name = form.name.value;
+        const team = form.team.value;
+        const age = form.age.value;
+        const status = form.status.value;
+
+        await db.coach.add({ name, team, age, status });
+
+        console.log("Saved to Dexie:", { name, team, age, status });
+
+        //form.reset();
+      });
+
+    document.getElementById("update").addEventListener("submit", async (e) => {
+      //e.preventDefault();
+
+      const name = document.getElementById("update_name").value.trim();
+
+      const updatedData = {
+        team: document.getElementById("update_team").value,
+        age: parseInt(document.getElementById("update_age").value),
+        status: document.getElementById("update_status").value,
+      };
+
+      const coaches = await db.coach
+        .where("name")
+        .equalsIgnoreCase(name)
+        .toArray();
+
+      if (coaches.length === 0) {
+        alert("Coach not found!");
+        return;
+      }
+
+      for (const coach of coaches) {
+        await db.coach.update(coach.id, updatedData);
+        console.log(`Updated ${coach.name} in team ${coach.team}`);
+      }
+    });
+
+    document.getElementById("delete").addEventListener("submit", async (e) => {
+      e.preventDefault();
+
+      const name = document.getElementById("delete_name").value.trim();
+
+      const updatedData = {
+        team: document.getElementById("delete_team").value,
+        age: parseInt(document.getElementById("delete_age").value),
+        status: document.getElementById("delete_status").value,
+      };
+
+      const coaches = await db.coach
+        .where("name")
+        .equalsIgnoreCase(name)
+        .toArray();
+
+      if (coaches.length === 0) {
+        alert("Coach not found!");
+        return;
+      }
+
+      for (const coach of coaches) {
+        await db.coach.delete(coach.id, updatedData);
+        console.log(`Deleted ${coach.name} in team ${coach.team}`);
+      }
+    });
+
+    document
+      .getElementById("delete_by_id")
+      .addEventListener("submit", async (e) => {
+        e.preventDefault();
+        const id = parseInt(document.getElementById("delete_id").value);
+
+        await db.player.delete(id);
+        console.log(`Player with id ${id} deleted.`);
+      });
+
+    document
+      .getElementById("updatesearchBtn")
+      .addEventListener("click", async (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById("update_name").value;
+
+        const coach = await db.coach
+          .where("name")
+          .equalsIgnoreCase(name)
+          .first();
+
+        if (coach) {
+          document.getElementById("update_team").value = coach.team;
+          document.getElementById("update_age").value = coach.age;
+          document.getElementById("update_status").value = coach.status;
+        } else {
+          alert("Coach not found.");
+        }
+      });
+
+    document
+      .getElementById("deletesearchBtn")
+      .addEventListener("click", async (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById("delete_name").value;
+
+        const coach = await db.coach
+          .where("name")
+          .equalsIgnoreCase(name)
+          .first();
+
+        if (player) {
+          document.getElementById("delete_team").value = coach.team;
+          document.getElementById("delete_age").value = coach.age;
+          document.getElementById("delete_status").value = coach.status;
+        } else {
+          alert("Coach not found.");
+        }
+      });
+  </script>
+</html>

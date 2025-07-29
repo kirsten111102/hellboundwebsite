@@ -1,0 +1,4 @@
+showEsportsTeam();
+showUpdateEsportsTeam();
+showDeleteEsportsTeam();
+showMinusEsportsTeam();

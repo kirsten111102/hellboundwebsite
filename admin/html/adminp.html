@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.min.js"></script>
+    <script src="/admin/js/database/db.js"></script>
+    <script src="/admin/js/database/esportsteams.js"></script>
+    <script src="/admin/js/database/position.js"></script>
+    <script src="/admin/js/database/player.js"></script>
+    <script src="/admin/js/database/showdb.js"></script>
+    <script src="/admin/js/script.js"></script>
+    <link href="/admin/css/adminp.css" rel="stylesheet">
+    <link href="/admin/css/header.css" rel="stylesheet">
+    <title>Admin - Player</title>
+</head>
+<div id="header"></div>
+<body>
+    <div class="player_zone">
+        <div id="form">
+            <h2>Add Player</h2>
+            <form id="player_form">
+                <label for="team">eSports team:</label>
+                <select name="team" id="team"></select>
+                <br><label for="name">Ingame name:</label>
+                <input type="text" id="name" class="name">
+                <br><label for="name">Age:</label>
+                <input type="number" id="age" class="age">
+                <br><label for="pos">Position:</label>
+                <select name="pos" id="pos">
+                    <option value="player" id="player">Player</option>
+                </select>
+                <br><label for="status">Status:</label>
+                <select name="status" id="status">
+                    <option value="main" id="main">Main</option>
+                    <option value="subs" id="subs">Substitution</option>
+                    <option value="inactive" id="inactive">Inactive</option>
+                </select>
+                <br><input type="submit" value="Add" class="btn">
+            </form>
+
+            <h2>Update Player</h2>
+            <form id="update">
+                <label for="name">Ingame name:</label>
+                <input type="text" id="update_name" class="name">
+                <br><label for="team">eSports team:</label>
+                <select name="team" id="update_team"></select>
+                <br><label for="name">Age:</label>
+                <input type="number" id="update_age" class="age">
+                <br><label for="pos">Position:</label>
+                <select name="pos" id="update_pos">
+                    <option value="player" id="player">Player</option>
+                </select>
+                <br><label for="status">Status:</label>
+                <select name="status" id="update_status">
+                    <option value="main" id="main">Main</option>
+                    <option value="subs" id="subs">Substitution</option>
+                    <option value="inactive" id="inactive">Inactive</option>
+                </select>
+                <br>
+                <input type="submit" value="Update" class="btn">
+                <input type="submit" value="Search" class="btn" id="updatesearchBtn">
+            </form>
+
+            <h2>Delete Player</h2>
+            <form id="delete">
+                <label for="name">Ingame name:</label>
+                <input type="text" id="delete_name" class="name">
+                <br><label for="team">eSports team:</label>
+                <select name="team" id="delete_team"></select>
+                <br><label for="name">Age:</label>
+                <input type="number" id="delete_age" class="age">
+                <br><label for="pos">Position:</label>
+                <select name="pos" id="delete_pos">
+                    <option value="player" id="player">Player</option>
+                </select>
+                <br><label for="status">Status:</label>
+                <select name="status" id="delete_status">
+                    <option value="main" id="main">Main</option>
+                    <option value="subs" id="subs">Substitution</option>
+                    <option value="inactive" id="inactive">Inactive</option>
+                </select>
+                <br>
+                <input type="submit" value="Delete" class="btn">
+                <input type="submit" value="Search" class="btn" id="deletesearchBtn">
+            </form>
+
+            <h2>Delete Player by Id</h2>
+            <form id="delete_by_id">
+                <label for="id">ID:</label>
+                <input type="text" id="delete_id" class="id">
+                <br>
+                <input type="submit" value="Delete" class="btn">
+            </form>
+        </div>
+
+        <div id="table_player">
+            <h2>Show Player</h2>
+            <div id="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Position</th>
+                            <th>Age</th>
+                            <th>Status</th>
+                            <th>Team</th>
+                        </tr>
+                    </thead>
+                    <tbody id="player_list"></tbody>
+                </table>
+            </div>
+            
+            <!--<button onclick="deletePlayers()">Delete All</button>-->
+            <button onclick="addAge()">+1 years old</button>
+            <!--<button onclick="addEsportsTeam()">Add Team</button>-->
+        </div>
+    </div>
+    
+</body>
+<script>
+    /*const bodyId = document.body.id;
+    showTeamTransferNews(bodyId);*/
+
+    const team_select = document.getElementById("team");
+    team_select.addEventListener('change', () => {
+        const team_id = team_select.value;
+        showPositions(team_id);
+    });
+
+    const update_team_select = document.getElementById("update_team");
+    update_team_select.addEventListener('change', () => {
+        const update_team_id = update_team_select.value;
+        showUpdatePositions(update_team_id);
+    });
+
+    const delete_team_select = document.getElementById("delete_team");
+    delete_team_select.addEventListener('change', () => {
+        const delete_team_id = delete_team_select.value;
+        showDeletePositions(delete_team_id);
+    });
+
+    document.getElementById('player_form').addEventListener(
+    'submit', async (e) => {
+        //e.preventDefault();
+
+        const form = e.target;
+
+        const name = form.name.value;
+        const team = form.team.value;
+        const age = form.age.value;
+        const position = form.pos.value;
+        const status = form.status.value;
+
+        await db.player.add({ name, team, age, position, status });
+
+        console.log('Saved to Dexie:', { name, team, age, position, status });
+
+        //form.reset();
+    });
+
+    document.getElementById('update').addEventListener(
+    'submit', async (e) => {
+        //e.preventDefault();
+
+        const name = document.getElementById('update_name').value.trim();
+        const team = document.getElementById('update_team').value;
+
+        const updatedData = {
+            age: parseInt(document.getElementById('update_age').value),
+            position: document.getElementById('update_pos').value,
+            status: document.getElementById('update_status').value
+        };
+
+        const players = await db.player
+            .where('name')
+            .equalsIgnoreCase(name)
+            .and(p => p.team === team)
+            .toArray();
+
+        if (players.length === 0) {
+            alert('Player not found!');
+            return;
+        }
+
+        for (const player of players) {
+            await db.player.update(player.id, updatedData);
+            console.log(`Updated ${player.name} in team ${player.team}`);
+        }
+    });
+
+    document.getElementById('delete').addEventListener(
+    'submit', async (e) => {
+        //e.preventDefault();
+
+        const name = document.getElementById('delete_name').value.trim();
+        const team = document.getElementById('delete_team').value;
+
+        const updatedData = {
+            age: parseInt(document.getElementById('delete_age').value),
+            position: document.getElementById('delete_pos').value,
+            status: document.getElementById('delete_status').value
+        };
+
+        const players = await db.player
+            .where('name')
+            .equalsIgnoreCase(name)
+            .and(p => p.team === team)
+            .toArray();
+
+        if (players.length === 0) {
+            alert('Player not found!');
+            return;
+        }
+
+        for (const player of players) {
+            await db.player.delete(player.id, updatedData);
+            console.log(`Deleted ${player.name} in team ${player.team}`);
+        }
+    });
+
+    document.getElementById('delete_by_id').addEventListener(
+    'submit', async (e) => {
+        e.preventDefault();
+        const id = parseInt(document.getElementById("delete_id").value);
+
+        await db.player.delete(id);
+        console.log(`Player with id ${id} deleted.`);
+    });
+
+    document.getElementById('updatesearchBtn').addEventListener(
+    'click', async (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById('update_name').value;
+        
+        const player = await db.player.where('name').equalsIgnoreCase(name).first();
+        console.log(player.position);
+
+        if (player) {
+            const team_update = document.getElementById('update_team');
+            team_update.value = player.team;
+            await showUpdatePositions(player.team);
+            document.getElementById('update_age').value = player.age;
+            document.getElementById('update_pos').value = player.position;
+            
+            document.getElementById('update_status').value = player.status;
+        } else {
+            alert('Player not found.');
+        }
+    });
+
+    document.getElementById('deletesearchBtn').addEventListener(
+    'click', async (e) => {
+        e.preventDefault();
+
+        const name = document.getElementById('delete_name').value;
+        
+        const player = await db.player.where('name').equalsIgnoreCase(name).first();
+
+        if (player) {
+            const team_delete = document.getElementById('delete_team');
+            team_delete.value = player.team;
+            await showDeletePositions(player.team);
+            document.getElementById('delete_age').value = player.age;
+            document.getElementById('delete_pos').value = player.position;
+            document.getElementById('delete_status').value = player.status;
+        } else {
+            alert('Player not found.');
+        }
+    });
+</script>
+</html>

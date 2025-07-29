@@ -1,0 +1,5123 @@
+{
+  "esportsteam": [
+    {
+      "id": "aow",
+      "name": "Age of Wololo"
+    },
+    {
+      "id": "cod",
+      "name": "Fall of Duty"
+    },
+    {
+      "id": "cs2",
+      "name": "Counter Strike 2"
+    },
+    {
+      "id": "dota2",
+      "name": "Dota 2"
+    },
+    {
+      "id": "fifafc",
+      "name": "Fifa FC"
+    },
+    {
+      "id": "lol",
+      "name": "League of Legends"
+    },
+    {
+      "id": "mlbb",
+      "name": "Mobile Legends"
+    },
+    {
+      "id": "overwatch",
+      "name": "Overwatch"
+    },
+    {
+      "id": "rocketleague",
+      "name": "Rocket League"
+    },
+    {
+      "id": "shadow5",
+      "name": "Shadow 5"
+    },
+    {
+      "id": "smashbros",
+      "name": "Smash Bros"
+    },
+    {
+      "id": "starcraft2",
+      "name": "Starcraft 2"
+    },
+    {
+      "id": "truckmaniac",
+      "name": "Truckmaniac"
+    },
+    {
+      "id": "valorant",
+      "name": "Valorant"
+    }
+  ],
+  "transfer_news": [
+    {
+      "id": "aow1",
+      "news": "Ucort left Hellbound Esports to 88Blocks",
+      "time": "none",
+      "team_id": "aow"
+    },
+    {
+      "id": "aow2",
+      "news": "Clidack joins Hellbound Esports from the academy",
+      "time": "1/2063",
+      "team_id": "aow"
+    },
+    {
+      "id": "cod1",
+      "news": "Tibeb, Midush, Dridoj, Grigev left Hellbound Esports",
+      "time": "12/2061",
+      "team_id": "cod"
+    },
+    {
+      "id": "cod2",
+      "news": "Yckov79 will be new coach for Hellbound Esports",
+      "time": "8/1/2062",
+      "team_id": "cod"
+    },
+    {
+      "id": "cod3",
+      "news": "Rys will be new slayer for Hellbound Esports",
+      "time": "8/1/2062",
+      "team_id": "cod"
+    },
+    {
+      "id": "cod4",
+      "news": "Welcome Ebow, Pezul for joining Hellbound Esports",
+      "time": "5/2/2062",
+      "team_id": "cod"
+    },
+    {
+      "id": "cod5",
+      "news": "Past moved to the first roster as Sub Slayer",
+      "time": "1/2/2063",
+      "team_id": "cod"
+    },
+    {
+      "id": "cod6",
+      "news": "Nuship joins the main roster as a support graduated from academy",
+      "time": "31/3/2064",
+      "team_id": "cod"
+    },
+    {
+      "id": "cs21",
+      "news": "Ustaz left Hellbound Esports to KOI",
+      "time": "7/6/2062",
+      "team_id": "cs2"
+    },
+    {
+      "id": "cs22",
+      "news": "Dritrob joins G2 from Hellbound Esports",
+      "time": "30/12/2062",
+      "team_id": "cs2"
+    },
+    {
+      "id": "cs23",
+      "news": "Claj joins Hellbound Esports from BDS",
+      "time": "31/12/2062",
+      "team_id": "cs2"
+    },
+    {
+      "id": "cs24",
+      "news": "Plesort will leave Hellbound Esports after 5 years to join Furia Esports",
+      "time": "21/1/2064",
+      "team_id": "cs2"
+    },
+    {
+      "id": "cs25",
+      "news": "Crah join Hellbound Esports as a new support from GiantX",
+      "time": "22/1/2064",
+      "team_id": "cs2"
+    },
+    {
+      "id": "dota21",
+      "news": "Sastep, Cast are going to leave Hellbound Esports after the fanstatic campaign in The International 62",
+      "time": "6/12/2062",
+      "team_id": "dota2"
+    },
+    {
+      "id": "dota22",
+      "news": "Sastep going to JD Gaming",
+      "time": "9/12/2062",
+      "team_id": "dota2"
+    },
+    {
+      "id": "dota23",
+      "news": "Welcome Plewort to Hellbound Esports family",
+      "time": "12/12/2062",
+      "team_id": "dota2"
+    },
+    {
+      "id": "dota24",
+      "news": "Cast going to DPlus Kia",
+      "time": "16/12/2062",
+      "team_id": "dota2"
+    },
+    {
+      "id": "dota25",
+      "news": "Hellbound Esports takes Eduh from JD Gaming for 2.2 million dollars!!",
+      "time": "16/12/2062",
+      "team_id": "dota2"
+    },
+    {
+      "id": "dota26",
+      "news": "Taspym7 joins Hellbound Esports from Karmine Corp",
+      "time": "3/1/2063",
+      "team_id": "dota2"
+    },
+    {
+      "id": "dota27",
+      "news": "Yrtis joins Dplus Kia from Hellbound Esports academy as a new mid player.",
+      "time": "5/8/2063",
+      "team_id": "dota2"
+    },
+    {
+      "id": "fifafc1",
+      "news": "Vush will leave Hellbound Esports after Worlds 2062",
+      "time": "18/12/2062",
+      "team_id": "fifafc"
+    },
+    {
+      "id": "fifafc2",
+      "news": "Vush joins Karmine Corp from Hellbound Esports",
+      "time": "8/1/2063",
+      "team_id": "fifafc"
+    },
+    {
+      "id": "fifafc3",
+      "news": "Hesh will be the new coach for Hellbound's Fifa Team",
+      "time": "8/1/2063",
+      "team_id": "fifafc"
+    },
+    {
+      "id": "fifafc4",
+      "news": "Girt joins first team as a sub player from academy",
+      "time": "31/5/2063",
+      "team_id": "fifafc"
+    },
+    {
+      "id": "lol1",
+      "news": "Sush going to JD Gaming",
+      "time": "1/2062",
+      "team_id": "lol"
+    },
+    {
+      "id": "lol2",
+      "news": "Welcome Egul to Hellbound Esports!",
+      "time": "1/2062",
+      "team_id": "lol"
+    },
+    {
+      "id": "lol3",
+      "news": "Polp joins KT Esports",
+      "time": "21/5/2063",
+      "team_id": "lol"
+    },
+    {
+      "id": "lol4",
+      "news": "Polp moved to the first roster as Sub for ADC in LOL team",
+      "time": "1/2/2063",
+      "team_id": "lol"
+    },
+    {
+      "id": "lol5",
+      "news": "Gral will leave Hellbound Esports after Worlds 2063",
+      "time": "12/12/2063",
+      "team_id": "lol"
+    },
+    {
+      "id": "lol6",
+      "news": "Vush joins Hellbound Esports from academy",
+      "time": "30/1/2064",
+      "team_id": "lol"
+    },
+    {
+      "id": "lol7",
+      "news": "Vush joins Team Liquid from Hellbound Esports for 1.8 million dollars!",
+      "time": "18/2/2064",
+      "team_id": "lol"
+    },
+    {
+      "id": "mlbb1",
+      "news": "Istaf left Hellbound Esports",
+      "time": "12/2061",
+      "team_id": "mlbb"
+    },
+    {
+      "id": "mlbb2",
+      "news": "Tryfish left Hellbound Esports",
+      "time": "none",
+      "team_id": "mlbb"
+    },
+    {
+      "id": "mlbb3",
+      "news": "Awus moved to Hellbound Esports first team as a potential roamer from academy",
+      "time": "1/4/2063",
+      "team_id": "mlbb"
+    },
+    {
+      "id": "mlbb4",
+      "news": "Valp joins Hanwha Life Esports after a long time playing for Hellbound Esports",
+      "time": "11/2/2064",
+      "team_id": "mlbb"
+    },
+    {
+      "id": "mlbb5",
+      "news": "Dravror joins the main roster as the potential Mid Laner from the academy",
+      "time": "29/2/2064",
+      "team_id": "mlbb"
+    },
+    {
+      "id": "overwatch1",
+      "news": "Dirirt moves to Floxu from Hellbound Esports",
+      "time": "1/1/2062",
+      "team_id": "overwatch"
+    },
+    {
+      "id": "overwatch2",
+      "news": "Spenuck joins Hellbound Esports",
+      "time": "1/1/2062",
+      "team_id": "overwatch"
+    },
+    {
+      "id": "overwatch3",
+      "news": "Jep joins Hellbound Esports first team from academy",
+      "time": "31/5/2063",
+      "team_id": "overwatch"
+    },
+    {
+      "id": "overwatch4",
+      "news": "Plijet moves to Furia Esports from Hellbound Esports",
+      "time": "7/1/2064",
+      "team_id": "overwatch"
+    },
+    {
+      "id": "rocketleague1",
+      "news": "Shimyw announced the departure from Hellbound Esports after being the champion of RLWC 2062",
+      "time": "18/12/2062",
+      "team_id": "rocketleague"
+    },
+    {
+      "id": "rocketleague2",
+      "news": "Shimyw joins Vitality",
+      "time": "30/12/2062",
+      "team_id": "rocketleague"
+    },
+    {
+      "id": "rocketleague3",
+      "news": "Dyk will be the new head coach of Hellbound Esports",
+      "time": "30/12/2062",
+      "team_id": "rocketleague"
+    },
+    {
+      "id": "shadow51",
+      "news": "Lurt joins Yrox Esports",
+      "time": "22/1/2062",
+      "team_id": "shadow5"
+    },
+    {
+      "id": "shadow52",
+      "news": "Zosh will be the new leader in Shadow 5 team",
+      "time": "22/1/2062",
+      "team_id": "shadow5"
+    },
+    {
+      "id": "shadow53",
+      "news": "Brawyrt joins Team Falcons",
+      "time": "31/1/2062",
+      "team_id": "shadow5"
+    },
+    {
+      "id": "shadow54",
+      "news": "Welcome new fragger to our team - Spih!!!",
+      "time": "31/1/2062",
+      "team_id": "shadow5"
+    },
+    {
+      "id": "shadow55",
+      "news": "Spih going to Limiteed from Hellbound Esports",
+      "time": "25/2/2064",
+      "team_id": "shadow5"
+    },
+    {
+      "id": "smashbros1",
+      "news": "Ujish leave Hellbound Esports after 5 years",
+      "time": "2062",
+      "team_id": "smashbros"
+    },
+    {
+      "id": "smashbros2",
+      "news": "Vrobyck joins Hellbound Esports as the Sub player from Hellbound Academy",
+      "time": "2/3/2063",
+      "team_id": "smashbros"
+    },
+    {
+      "id": "smashbros3",
+      "news": "Vrobyck moves to Team Falcons",
+      "time": "27/8/2063",
+      "team_id": "smashbros"
+    },
+    {
+      "id": "smashbros4",
+      "news": "Gridag joins Smash Bros first roster from academy",
+      "time": "30/1/2064",
+      "team_id": "smashbros"
+    },
+    {
+      "id": "starcraft21",
+      "news": "Agak69 left Hellbound Esports",
+      "time": "27/12/2061",
+      "team_id": "starcraft2"
+    },
+    {
+      "id": "starcraft22",
+      "news": "Cras joined Hellbound Esports as a new coach",
+      "time": "27/12/2061",
+      "team_id": "starcraft2"
+    },
+    {
+      "id": "starcraft23",
+      "news": "Atep is the next player to join the main roster from the academy",
+      "time": "29/2/2064",
+      "team_id": "starcraft2"
+    },
+    {
+      "id": "truckmaniac1",
+      "news": "Spevack joins Voison Esports",
+      "time": "2062",
+      "team_id": "truckmaniac"
+    },
+    {
+      "id": "truckmaniac2",
+      "news": "Ajud joins Floxu after 5 years playing for Hellbound Esports",
+      "time": "28/1/2064",
+      "team_id": "truckmaniac"
+    },
+    {
+      "id": "truckmaniac3",
+      "news": "Ertic join Truckmaniac main squad from the academy",
+      "time": "29/2/2064",
+      "team_id": "truckmaniac"
+    },
+    {
+      "id": "valorant1",
+      "news": "Hovrav, Tist left Hellbound Esports after the VCT Champions 61 ends.",
+      "time": "12/2061",
+      "team_id": "valorant"
+    },
+    {
+      "id": "valorant2",
+      "news": "Weclome Apert3, Polp to Hellbound Esports to start our VCT 62 campaign.",
+      "time": "29/1/2062",
+      "team_id": "valorant"
+    },
+    {
+      "id": "valorant3",
+      "news": "Vypruj joins Hellbound Esports first team from academy.",
+      "time": "30/9/2063",
+      "team_id": "valorant"
+    },
+    {
+      "id": "valorant4",
+      "news": "Vypruj joins Cloud9 main roster.",
+      "time": "19/11/2063",
+      "team_id": "valorant"
+    }
+  ],
+  "position": [
+    {
+      "id": "cod_anchor",
+      "pos": "Anchor",
+      "team_id": "cod"
+    },
+    {
+      "id": "cod_objective",
+      "pos": "Objective",
+      "team_id": "cod"
+    },
+    {
+      "id": "cod_slayer",
+      "pos": "Slayer",
+      "team_id": "cod"
+    },
+    {
+      "id": "cod_support",
+      "pos": "Support",
+      "team_id": "cod"
+    },
+    {
+      "id": "cs2_awper",
+      "pos": "AWPer",
+      "team_id": "cs2"
+    },
+    {
+      "id": "cs2_fragger",
+      "pos": "Fragger",
+      "team_id": "cs2"
+    },
+    {
+      "id": "cs2_leader",
+      "pos": "Leader",
+      "team_id": "cs2"
+    },
+    {
+      "id": "cs2_lurker",
+      "pos": "Lurker",
+      "team_id": "cs2"
+    },
+    {
+      "id": "cs2_support",
+      "pos": "Support",
+      "team_id": "cs2"
+    },
+    {
+      "id": "dota2_carry",
+      "pos": "Carry",
+      "team_id": "dota2"
+    },
+    {
+      "id": "dota2_midlane",
+      "pos": "Mid Lane",
+      "team_id": "dota2"
+    },
+    {
+      "id": "dota2_offlane",
+      "pos": "Off Lane",
+      "team_id": "dota2"
+    },
+    {
+      "id": "dota2_roamer",
+      "pos": "Roamer",
+      "team_id": "dota2"
+    },
+    {
+      "id": "dota2_support",
+      "pos": "Support",
+      "team_id": "dota2"
+    },
+    {
+      "id": "lol_bot",
+      "pos": "Bot",
+      "team_id": "lol"
+    },
+    {
+      "id": "lol_jungle",
+      "pos": "Jungle",
+      "team_id": "lol"
+    },
+    {
+      "id": "lol_mid",
+      "pos": "Mid",
+      "team_id": "lol"
+    },
+    {
+      "id": "lol_support",
+      "pos": "Support",
+      "team_id": "lol"
+    },
+    {
+      "id": "lol_top",
+      "pos": "Top",
+      "team_id": "lol"
+    },
+    {
+      "id": "mlbb_explane",
+      "pos": "Exp Lane",
+      "team_id": "mlbb"
+    },
+    {
+      "id": "mlbb_goldlane",
+      "pos": "Gold Lane",
+      "team_id": "mlbb"
+    },
+    {
+      "id": "mlbb_jungle",
+      "pos": "Jungle",
+      "team_id": "mlbb"
+    },
+    {
+      "id": "mlbb_mid",
+      "pos": "Mid",
+      "team_id": "mlbb"
+    },
+    {
+      "id": "mlbb_roamer",
+      "pos": "Roamer",
+      "team_id": "mlbb"
+    },
+    {
+      "id": "overwatch_anchor",
+      "pos": "Damage",
+      "team_id": "overwatch"
+    },
+    {
+      "id": "overwatch_slayer",
+      "pos": "Tank",
+      "team_id": "overwatch"
+    },
+    {
+      "id": "overwatch_support",
+      "pos": "Support",
+      "team_id": "overwatch"
+    },
+    {
+      "id": "shadow5_anchor",
+      "pos": "Anchor",
+      "team_id": "shadow5"
+    },
+    {
+      "id": "shadow5_fragger",
+      "pos": "Fragger",
+      "team_id": "shadow5"
+    },
+    {
+      "id": "shadow5_leader",
+      "pos": "Leader",
+      "team_id": "shadow5"
+    },
+    {
+      "id": "shadow5_support",
+      "pos": "Support",
+      "team_id": "shadow5"
+    },
+    {
+      "id": "shadow5_watcher",
+      "pos": "Watcher",
+      "team_id": "shadow5"
+    }
+  ],
+  "player": [
+    {
+      "name": "Ulpick",
+      "team": "aow",
+      "age": 19,
+      "position": "player",
+      "status": "main",
+      "id": 6
+    },
+    {
+      "name": "Clidack",
+      "team": "aow",
+      "age": 16,
+      "position": "player",
+      "status": "subs",
+      "id": 7
+    },
+    {
+      "name": "Pezul",
+      "team": "cod",
+      "age": 23,
+      "position": "cod_anchor",
+      "status": "main",
+      "id": 8
+    },
+    {
+      "name": "Clyport",
+      "team": "cod",
+      "age": 20,
+      "position": "cod_objective",
+      "status": "main",
+      "id": 9
+    },
+    {
+      "name": "Rys",
+      "team": "cod",
+      "age": 23,
+      "position": "cod_slayer",
+      "status": "main",
+      "id": 10
+    },
+    {
+      "name": "Past",
+      "team": "cod",
+      "age": 16,
+      "position": "cod_slayer",
+      "status": "subs",
+      "id": 11
+    },
+    {
+      "name": "Ebow",
+      "team": "cod",
+      "age": 19,
+      "position": "cod_support",
+      "status": "main",
+      "id": 12
+    },
+    {
+      "name": "Cih",
+      "team": "cs2",
+      "age": 26,
+      "position": "cs2_fragger",
+      "status": "main",
+      "id": 13
+    },
+    {
+      "name": "Claj",
+      "team": "cs2",
+      "age": 22,
+      "position": "cs2_awper",
+      "status": "main",
+      "id": 14
+    },
+    {
+      "name": "Spywep",
+      "team": "cs2",
+      "age": 24,
+      "position": "cs2_leader",
+      "status": "main",
+      "id": 15
+    },
+    {
+      "name": "Rubast",
+      "team": "cs2",
+      "age": 21,
+      "position": "cs2_lurker",
+      "status": "main",
+      "id": 16
+    },
+    {
+      "name": "Plewort",
+      "team": "dota2",
+      "age": 22,
+      "position": "dota2_carry",
+      "status": "main",
+      "id": 18
+    },
+    {
+      "name": "Eduh",
+      "team": "dota2",
+      "age": 19,
+      "position": "dota2_midlane",
+      "status": "main",
+      "id": 19
+    },
+    {
+      "name": "Taspym7",
+      "team": "dota2",
+      "age": 20,
+      "position": "dota2_offlane",
+      "status": "main",
+      "id": 20
+    },
+    {
+      "name": "Draquck",
+      "team": "dota2",
+      "age": 20,
+      "position": "dota2_roamer",
+      "status": "main",
+      "id": 22
+    },
+    {
+      "name": "Jyck",
+      "team": "dota2",
+      "age": 25,
+      "position": "dota2_support",
+      "status": "main",
+      "id": 23
+    },
+    {
+      "name": "Olip",
+      "team": "fifafc",
+      "age": 25,
+      "position": "player",
+      "status": "main",
+      "id": 24
+    },
+    {
+      "name": "Frik",
+      "team": "lol",
+      "age": 25,
+      "position": "lol_top",
+      "status": "main",
+      "id": 25
+    },
+    {
+      "name": "Facak",
+      "team": "lol",
+      "age": 25,
+      "position": "lol_jungle",
+      "status": "main",
+      "id": 26
+    },
+    {
+      "name": "Prep",
+      "team": "lol",
+      "age": 23,
+      "position": "lol_mid",
+      "status": "main",
+      "id": 27
+    },
+    {
+      "name": "Cyl",
+      "team": "lol",
+      "age": 24,
+      "position": "lol_bot",
+      "status": "main",
+      "id": 28
+    },
+    {
+      "name": "Seck",
+      "team": "lol",
+      "age": 20,
+      "position": "lol_bot",
+      "status": "subs",
+      "id": 29
+    },
+    {
+      "name": "Egul",
+      "team": "lol",
+      "age": 21,
+      "position": "lol_support",
+      "status": "main",
+      "id": 30
+    },
+    {
+      "name": "Triposh",
+      "team": "mlbb",
+      "age": "22",
+      "position": "mlbb_explane",
+      "status": "main",
+      "id": 31
+    },
+    {
+      "name": "Ishysh37",
+      "team": "mlbb",
+      "age": "20",
+      "position": "mlbb_goldlane",
+      "status": "main",
+      "id": 32
+    },
+    {
+      "name": "Poh",
+      "team": "mlbb",
+      "age": "22",
+      "position": "mlbb_jungle",
+      "status": "main",
+      "id": 33
+    },
+    {
+      "name": "Wurep",
+      "team": "mlbb",
+      "age": "26",
+      "position": "mlbb_mid",
+      "status": "main",
+      "id": 34
+    },
+    {
+      "name": "Awus",
+      "team": "mlbb",
+      "age": "17",
+      "position": "mlbb_roamer",
+      "status": "main",
+      "id": 35
+    },
+    {
+      "name": "Jep",
+      "team": "overwatch",
+      "age": "16",
+      "position": "overwatch_anchor",
+      "status": "main",
+      "id": 37
+    },
+    {
+      "name": "Ulpom",
+      "team": "overwatch",
+      "age": "19",
+      "position": "overwatch_anchor",
+      "status": "main",
+      "id": 38
+    },
+    {
+      "name": "Spenuck",
+      "team": "overwatch",
+      "age": "19",
+      "position": "overwatch_slayer",
+      "status": "main",
+      "id": 40
+    },
+    {
+      "name": "Drah",
+      "team": "overwatch",
+      "age": "21",
+      "position": "overwatch_slayer",
+      "status": "main",
+      "id": 41
+    },
+    {
+      "name": "Syw",
+      "team": "overwatch",
+      "age": "22",
+      "position": "overwatch_support",
+      "status": "main",
+      "id": 42
+    },
+    {
+      "name": "Dudav",
+      "team": "shadow5",
+      "age": "23",
+      "position": "shadow5_anchor",
+      "status": "main",
+      "id": 43
+    },
+    {
+      "name": "Crostep",
+      "team": "shadow5",
+      "age": "16",
+      "position": "shadow5_fragger",
+      "status": "main",
+      "id": 44
+    },
+    {
+      "name": "Zosh",
+      "team": "shadow5",
+      "age": "18",
+      "position": "shadow5_leader",
+      "status": "main",
+      "id": 46
+    },
+    {
+      "name": "Usheck",
+      "team": "shadow5",
+      "age": "21",
+      "position": "shadow5_support",
+      "status": "main",
+      "id": 47
+    },
+    {
+      "name": "Qest",
+      "team": "shadow5",
+      "age": "22",
+      "position": "shadow5_watcher",
+      "status": "main",
+      "id": 48
+    },
+    {
+      "name": "Get",
+      "team": "rocketleague",
+      "age": "22",
+      "position": "player",
+      "status": "main",
+      "id": 49
+    },
+    {
+      "name": "Wan",
+      "team": "rocketleague",
+      "age": "24",
+      "position": "player",
+      "status": "main",
+      "id": 50
+    },
+    {
+      "name": "Ickot",
+      "team": "rocketleague",
+      "age": "24",
+      "position": "player",
+      "status": "main",
+      "id": 51
+    },
+    {
+      "name": "Clig",
+      "team": "rocketleague",
+      "age": "20",
+      "position": "player",
+      "status": "subs",
+      "id": 52
+    },
+    {
+      "name": "Soprul7",
+      "team": "smashbros",
+      "age": "18",
+      "position": "player",
+      "status": "main",
+      "id": 53
+    },
+    {
+      "name": "Pilp",
+      "team": "starcraft2",
+      "age": "18",
+      "position": "player",
+      "status": "main",
+      "id": 54
+    },
+    {
+      "name": "Gog",
+      "team": "starcraft2",
+      "age": "17",
+      "position": "player",
+      "status": "subs",
+      "id": 55
+    },
+    {
+      "name": "Esturt",
+      "team": "truckmaniac",
+      "age": "17",
+      "position": "player",
+      "status": "main",
+      "id": 57
+    },
+    {
+      "name": "Grat",
+      "team": "truckmaniac",
+      "age": "18",
+      "position": "player",
+      "status": "main",
+      "id": 58
+    },
+    {
+      "name": "Apert3",
+      "team": "valorant",
+      "age": "18",
+      "position": "player",
+      "status": "main",
+      "id": 59
+    },
+    {
+      "name": "Cryr",
+      "team": "valorant",
+      "age": "19",
+      "position": "player",
+      "status": "main",
+      "id": 60
+    },
+    {
+      "name": "Polp",
+      "team": "valorant",
+      "age": "21",
+      "position": "player",
+      "status": "main",
+      "id": 61
+    },
+    {
+      "name": "Soclil",
+      "team": "valorant",
+      "age": "21",
+      "position": "player",
+      "status": "main",
+      "id": 62
+    },
+    {
+      "name": "Eluk",
+      "team": "valorant",
+      "age": "21",
+      "position": "player",
+      "status": "main",
+      "id": 63
+    },
+    {
+      "name": "Qoselp",
+      "team": "dota2",
+      "age": "28",
+      "position": "dota2_offlane",
+      "status": "subs",
+      "id": 64
+    },
+    {
+      "name": "Crah",
+      "team": "cs2",
+      "age": "20",
+      "position": "cs2_support",
+      "status": "main",
+      "id": 69
+    },
+    {
+      "name": "Gridag",
+      "team": "smashbros",
+      "age": 15,
+      "position": "player",
+      "status": "subs",
+      "id": 70
+    },
+    {
+      "name": "Ertic",
+      "team": "truckmaniac",
+      "age": "16",
+      "position": "player",
+      "status": "subs",
+      "id": 72
+    },
+    {
+      "name": "Atep",
+      "team": "starcraft2",
+      "age": "16",
+      "position": "player",
+      "status": "subs",
+      "id": 73
+    },
+    {
+      "name": "Dravror",
+      "team": "mlbb",
+      "age": "15",
+      "position": "mlbb_mid",
+      "status": "subs",
+      "id": 74
+    },
+    {
+      "name": "Nuship",
+      "team": "cod",
+      "age": "15",
+      "position": "cod_support",
+      "status": "subs",
+      "id": 75
+    }
+  ],
+  "coach": [
+    {
+      "name": "Ihost",
+      "team": "dota2",
+      "age": 31,
+      "status": "main",
+      "id": 1
+    },
+    {
+      "name": "Asost",
+      "team": "aow",
+      "age": 32,
+      "status": "main",
+      "id": 2
+    },
+    {
+      "name": "Yckov79",
+      "team": "cod",
+      "age": 23,
+      "status": "main",
+      "id": 3
+    },
+    {
+      "name": "Sast",
+      "team": "cs2",
+      "age": 25,
+      "status": "main",
+      "id": 4
+    },
+    {
+      "name": "Hesh",
+      "team": "fifafc",
+      "age": 27,
+      "status": "main",
+      "id": 5
+    },
+    {
+      "name": "Gral",
+      "team": "lol",
+      "age": 38,
+      "status": "main",
+      "id": 6
+    },
+    {
+      "name": "Plepor",
+      "team": "mlbb",
+      "age": 33,
+      "status": "main",
+      "id": 7
+    },
+    {
+      "name": "Olpyst",
+      "team": "overwatch",
+      "age": 27,
+      "status": "main",
+      "id": 8
+    },
+    {
+      "name": "Dyk",
+      "team": "rocketleague",
+      "age": 27,
+      "status": "main",
+      "id": 9
+    },
+    {
+      "name": "Hyrack",
+      "team": "shadow5",
+      "age": 30,
+      "status": "main",
+      "id": 10
+    },
+    {
+      "name": "Afag26",
+      "team": "smashbros",
+      "age": 27,
+      "status": "main",
+      "id": 11
+    },
+    {
+      "name": "Cras",
+      "team": "starcraft2",
+      "age": 31,
+      "status": "main",
+      "id": 12
+    },
+    {
+      "name": "Cosh",
+      "team": "truckmaniac",
+      "age": 29,
+      "status": "main",
+      "id": 13
+    },
+    {
+      "name": "Difruw88",
+      "team": "valorant",
+      "age": 31,
+      "status": "main",
+      "id": 14
+    }
+  ],
+  "regional": [
+    {
+      "id": "apac",
+      "name": "Asia and Pacific"
+    },
+    {
+      "id": "eur",
+      "name": "Europe"
+    },
+    {
+      "id": "mena",
+      "name": "The Middle East and North Africa"
+    },
+    {
+      "id": "nam",
+      "name": "North America"
+    },
+    {
+      "id": "oce",
+      "name": "Oceania"
+    },
+    {
+      "id": "sam",
+      "name": "South America"
+    },
+    {
+      "id": "ssa",
+      "name": "Sub-Saharan Africa"
+    }
+  ],
+  "spring_rl": [
+    {
+      "id": "aow1_apac",
+      "team_id": "aow",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "aow1_eur",
+      "team_id": "aow",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "aow1_mena",
+      "team_id": "aow",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "aow1_nam",
+      "team_id": "aow",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "aow1_oce",
+      "team_id": "aow",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "aow1_sam",
+      "team_id": "aow",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "aow1_ssa",
+      "team_id": "aow",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "aow2_apac",
+      "team_id": "aow",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "aow2_eur",
+      "team_id": "aow",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "aow2_mena",
+      "team_id": "aow",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "aow2_nam",
+      "team_id": "aow",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "aow2_oce",
+      "team_id": "aow",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "aow2_sam",
+      "team_id": "aow",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "aow2_ssa",
+      "team_id": "aow",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cod1_apac",
+      "team_id": "cod",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "cod1_eur",
+      "team_id": "cod",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cod1_mena",
+      "team_id": "cod",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cod1_nam",
+      "team_id": "cod",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cod1_oce",
+      "team_id": "cod",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cod1_sam",
+      "team_id": "cod",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cod1_ssa",
+      "team_id": "cod",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cod2_apac",
+      "team_id": "cod",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "cod2_eur",
+      "team_id": "cod",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cod2_mena",
+      "team_id": "cod",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cod2_nam",
+      "team_id": "cod",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cod2_oce",
+      "team_id": "cod",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cod2_sam",
+      "team_id": "cod",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cod2_ssa",
+      "team_id": "cod",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cs21_apac",
+      "team_id": "cs2",
+      "regional": "apac",
+      "wins": 4
+    },
+    {
+      "id": "cs21_eur",
+      "team_id": "cs2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cs21_mena",
+      "team_id": "cs2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cs21_nam",
+      "team_id": "cs2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cs21_oce",
+      "team_id": "cs2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cs21_sam",
+      "team_id": "cs2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cs21_ssa",
+      "team_id": "cs2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cs22_apac",
+      "team_id": "cs2",
+      "regional": "apac",
+      "wins": 2
+    },
+    {
+      "id": "cs22_eur",
+      "team_id": "cs2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cs22_mena",
+      "team_id": "cs2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cs22_nam",
+      "team_id": "cs2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cs22_oce",
+      "team_id": "cs2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cs22_sam",
+      "team_id": "cs2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cs22_ssa",
+      "team_id": "cs2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "dota21_apac",
+      "team_id": "dota2",
+      "regional": "apac",
+      "wins": 4
+    },
+    {
+      "id": "dota21_eur",
+      "team_id": "dota2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "dota21_mena",
+      "team_id": "dota2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "dota21_nam",
+      "team_id": "dota2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "dota21_oce",
+      "team_id": "dota2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "dota21_sam",
+      "team_id": "dota2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "dota21_ssa",
+      "team_id": "dota2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "dota22_apac",
+      "team_id": "dota2",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "dota22_eur",
+      "team_id": "dota2",
+      "regional": "eur",
+      "wins": 1
+    },
+    {
+      "id": "dota22_mena",
+      "team_id": "dota2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "dota22_nam",
+      "team_id": "dota2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "dota22_oce",
+      "team_id": "dota2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "dota22_sam",
+      "team_id": "dota2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "dota22_ssa",
+      "team_id": "dota2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_apac",
+      "team_id": "fifafc",
+      "regional": "apac",
+      "wins": 5
+    },
+    {
+      "id": "fifafc1_eur",
+      "team_id": "fifafc",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_mena",
+      "team_id": "fifafc",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_nam",
+      "team_id": "fifafc",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_oce",
+      "team_id": "fifafc",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_sam",
+      "team_id": "fifafc",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_ssa",
+      "team_id": "fifafc",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_apac",
+      "team_id": "fifafc",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "fifafc2_eur",
+      "team_id": "fifafc",
+      "regional": "eur",
+      "wins": 1
+    },
+    {
+      "id": "fifafc2_mena",
+      "team_id": "fifafc",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_nam",
+      "team_id": "fifafc",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_oce",
+      "team_id": "fifafc",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_sam",
+      "team_id": "fifafc",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_ssa",
+      "team_id": "fifafc",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "lol1_apac",
+      "team_id": "lol",
+      "regional": "apac",
+      "wins": 4
+    },
+    {
+      "id": "lol1_eur",
+      "team_id": "lol",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "lol1_mena",
+      "team_id": "lol",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "lol1_nam",
+      "team_id": "lol",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "lol1_oce",
+      "team_id": "lol",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "lol1_sam",
+      "team_id": "lol",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "lol1_ssa",
+      "team_id": "lol",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "lol2_apac",
+      "team_id": "lol",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "lol2_eur",
+      "team_id": "lol",
+      "regional": "eur",
+      "wins": 1
+    },
+    {
+      "id": "lol2_mena",
+      "team_id": "lol",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "lol2_nam",
+      "team_id": "lol",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "lol2_oce",
+      "team_id": "lol",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "lol2_sam",
+      "team_id": "lol",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "lol2_ssa",
+      "team_id": "lol",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_apac",
+      "team_id": "mlbb",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_eur",
+      "team_id": "mlbb",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_mena",
+      "team_id": "mlbb",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_nam",
+      "team_id": "mlbb",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_oce",
+      "team_id": "mlbb",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_sam",
+      "team_id": "mlbb",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_ssa",
+      "team_id": "mlbb",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_apac",
+      "team_id": "mlbb",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_eur",
+      "team_id": "mlbb",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_mena",
+      "team_id": "mlbb",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_nam",
+      "team_id": "mlbb",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_oce",
+      "team_id": "mlbb",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_sam",
+      "team_id": "mlbb",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_ssa",
+      "team_id": "mlbb",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_apac",
+      "team_id": "overwatch",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_eur",
+      "team_id": "overwatch",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_mena",
+      "team_id": "overwatch",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_nam",
+      "team_id": "overwatch",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_oce",
+      "team_id": "overwatch",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_sam",
+      "team_id": "overwatch",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_ssa",
+      "team_id": "overwatch",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_apac",
+      "team_id": "overwatch",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "overwatch2_eur",
+      "team_id": "overwatch",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_mena",
+      "team_id": "overwatch",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_nam",
+      "team_id": "overwatch",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_oce",
+      "team_id": "overwatch",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_sam",
+      "team_id": "overwatch",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_ssa",
+      "team_id": "overwatch",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_apac",
+      "team_id": "rocketleague",
+      "regional": "apac",
+      "wins": 8
+    },
+    {
+      "id": "rocketleague1_eur",
+      "team_id": "rocketleague",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_mena",
+      "team_id": "rocketleague",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_nam",
+      "team_id": "rocketleague",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_oce",
+      "team_id": "rocketleague",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_sam",
+      "team_id": "rocketleague",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_ssa",
+      "team_id": "rocketleague",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_apac",
+      "team_id": "rocketleague",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_eur",
+      "team_id": "rocketleague",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_mena",
+      "team_id": "rocketleague",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_nam",
+      "team_id": "rocketleague",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_oce",
+      "team_id": "rocketleague",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_sam",
+      "team_id": "rocketleague",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_ssa",
+      "team_id": "rocketleague",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_apac",
+      "team_id": "shadow5",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "shadow51_eur",
+      "team_id": "shadow5",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_mena",
+      "team_id": "shadow5",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_nam",
+      "team_id": "shadow5",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_oce",
+      "team_id": "shadow5",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_sam",
+      "team_id": "shadow5",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_ssa",
+      "team_id": "shadow5",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_apac",
+      "team_id": "shadow5",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_eur",
+      "team_id": "shadow5",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_mena",
+      "team_id": "shadow5",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_nam",
+      "team_id": "shadow5",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_oce",
+      "team_id": "shadow5",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_sam",
+      "team_id": "shadow5",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_ssa",
+      "team_id": "shadow5",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_apac",
+      "team_id": "smashbros",
+      "regional": "apac",
+      "wins": 2
+    },
+    {
+      "id": "smashbros1_eur",
+      "team_id": "smashbros",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_mena",
+      "team_id": "smashbros",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_nam",
+      "team_id": "smashbros",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_oce",
+      "team_id": "smashbros",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_sam",
+      "team_id": "smashbros",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_ssa",
+      "team_id": "smashbros",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_apac",
+      "team_id": "smashbros",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "smashbros2_eur",
+      "team_id": "smashbros",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_mena",
+      "team_id": "smashbros",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_nam",
+      "team_id": "smashbros",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_oce",
+      "team_id": "smashbros",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_sam",
+      "team_id": "smashbros",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_ssa",
+      "team_id": "smashbros",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_apac",
+      "team_id": "starcraft2",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_eur",
+      "team_id": "starcraft2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_mena",
+      "team_id": "starcraft2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_nam",
+      "team_id": "starcraft2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_oce",
+      "team_id": "starcraft2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_sam",
+      "team_id": "starcraft2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_ssa",
+      "team_id": "starcraft2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_apac",
+      "team_id": "starcraft2",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_eur",
+      "team_id": "starcraft2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_mena",
+      "team_id": "starcraft2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_nam",
+      "team_id": "starcraft2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_oce",
+      "team_id": "starcraft2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_sam",
+      "team_id": "starcraft2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_ssa",
+      "team_id": "starcraft2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_apac",
+      "team_id": "truckmaniac",
+      "regional": "apac",
+      "wins": 2
+    },
+    {
+      "id": "truckmaniac1_eur",
+      "team_id": "truckmaniac",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_mena",
+      "team_id": "truckmaniac",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_nam",
+      "team_id": "truckmaniac",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_oce",
+      "team_id": "truckmaniac",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_sam",
+      "team_id": "truckmaniac",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_ssa",
+      "team_id": "truckmaniac",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_apac",
+      "team_id": "truckmaniac",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_eur",
+      "team_id": "truckmaniac",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_mena",
+      "team_id": "truckmaniac",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_nam",
+      "team_id": "truckmaniac",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_oce",
+      "team_id": "truckmaniac",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_sam",
+      "team_id": "truckmaniac",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_ssa",
+      "team_id": "truckmaniac",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_apac",
+      "team_id": "valorant",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_eur",
+      "team_id": "valorant",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_mena",
+      "team_id": "valorant",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_nam",
+      "team_id": "valorant",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_oce",
+      "team_id": "valorant",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_sam",
+      "team_id": "valorant",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_ssa",
+      "team_id": "valorant",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_apac",
+      "team_id": "valorant",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "valorant2_eur",
+      "team_id": "valorant",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_mena",
+      "team_id": "valorant",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_nam",
+      "team_id": "valorant",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_oce",
+      "team_id": "valorant",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_sam",
+      "team_id": "valorant",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_ssa",
+      "team_id": "valorant",
+      "regional": "ssa",
+      "wins": 0
+    }
+  ],
+  "summer_rl": [
+    {
+      "id": "aow1_apac",
+      "team_id": "aow",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "aow1_eur",
+      "team_id": "aow",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "aow1_mena",
+      "team_id": "aow",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "aow1_nam",
+      "team_id": "aow",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "aow1_oce",
+      "team_id": "aow",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "aow1_sam",
+      "team_id": "aow",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "aow1_ssa",
+      "team_id": "aow",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "aow2_apac",
+      "team_id": "aow",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "aow2_eur",
+      "team_id": "aow",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "aow2_mena",
+      "team_id": "aow",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "aow2_nam",
+      "team_id": "aow",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "aow2_oce",
+      "team_id": "aow",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "aow2_sam",
+      "team_id": "aow",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "aow2_ssa",
+      "team_id": "aow",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cod1_apac",
+      "team_id": "cod",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "cod1_eur",
+      "team_id": "cod",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cod1_mena",
+      "team_id": "cod",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cod1_nam",
+      "team_id": "cod",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cod1_oce",
+      "team_id": "cod",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cod1_sam",
+      "team_id": "cod",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cod1_ssa",
+      "team_id": "cod",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cod2_apac",
+      "team_id": "cod",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "cod2_eur",
+      "team_id": "cod",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cod2_mena",
+      "team_id": "cod",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cod2_nam",
+      "team_id": "cod",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cod2_oce",
+      "team_id": "cod",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cod2_sam",
+      "team_id": "cod",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cod2_ssa",
+      "team_id": "cod",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cs21_apac",
+      "team_id": "cs2",
+      "regional": "apac",
+      "wins": 4
+    },
+    {
+      "id": "cs21_eur",
+      "team_id": "cs2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cs21_mena",
+      "team_id": "cs2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cs21_nam",
+      "team_id": "cs2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cs21_oce",
+      "team_id": "cs2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cs21_sam",
+      "team_id": "cs2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cs21_ssa",
+      "team_id": "cs2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cs22_apac",
+      "team_id": "cs2",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "cs22_eur",
+      "team_id": "cs2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cs22_mena",
+      "team_id": "cs2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cs22_nam",
+      "team_id": "cs2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cs22_oce",
+      "team_id": "cs2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cs22_sam",
+      "team_id": "cs2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cs22_ssa",
+      "team_id": "cs2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "dota21_apac",
+      "team_id": "dota2",
+      "regional": "apac",
+      "wins": 6
+    },
+    {
+      "id": "dota21_eur",
+      "team_id": "dota2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "dota21_mena",
+      "team_id": "dota2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "dota21_nam",
+      "team_id": "dota2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "dota21_oce",
+      "team_id": "dota2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "dota21_sam",
+      "team_id": "dota2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "dota21_ssa",
+      "team_id": "dota2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "dota22_apac",
+      "team_id": "dota2",
+      "regional": "apac",
+      "wins": 2
+    },
+    {
+      "id": "dota22_eur",
+      "team_id": "dota2",
+      "regional": "eur",
+      "wins": 1
+    },
+    {
+      "id": "dota22_mena",
+      "team_id": "dota2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "dota22_nam",
+      "team_id": "dota2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "dota22_oce",
+      "team_id": "dota2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "dota22_sam",
+      "team_id": "dota2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "dota22_ssa",
+      "team_id": "dota2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_apac",
+      "team_id": "fifafc",
+      "regional": "apac",
+      "wins": 3
+    },
+    {
+      "id": "fifafc1_eur",
+      "team_id": "fifafc",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_mena",
+      "team_id": "fifafc",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_nam",
+      "team_id": "fifafc",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_oce",
+      "team_id": "fifafc",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_sam",
+      "team_id": "fifafc",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_ssa",
+      "team_id": "fifafc",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_apac",
+      "team_id": "fifafc",
+      "regional": "apac",
+      "wins": 3
+    },
+    {
+      "id": "fifafc2_eur",
+      "team_id": "fifafc",
+      "regional": "eur",
+      "wins": 1
+    },
+    {
+      "id": "fifafc2_mena",
+      "team_id": "fifafc",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_nam",
+      "team_id": "fifafc",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_oce",
+      "team_id": "fifafc",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_sam",
+      "team_id": "fifafc",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_ssa",
+      "team_id": "fifafc",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "lol1_apac",
+      "team_id": "lol",
+      "regional": "apac",
+      "wins": 4
+    },
+    {
+      "id": "lol1_eur",
+      "team_id": "lol",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "lol1_mena",
+      "team_id": "lol",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "lol1_nam",
+      "team_id": "lol",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "lol1_oce",
+      "team_id": "lol",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "lol1_sam",
+      "team_id": "lol",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "lol1_ssa",
+      "team_id": "lol",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "lol2_apac",
+      "team_id": "lol",
+      "regional": "apac",
+      "wins": 3
+    },
+    {
+      "id": "lol2_eur",
+      "team_id": "lol",
+      "regional": "eur",
+      "wins": 1
+    },
+    {
+      "id": "lol2_mena",
+      "team_id": "lol",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "lol2_nam",
+      "team_id": "lol",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "lol2_oce",
+      "team_id": "lol",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "lol2_sam",
+      "team_id": "lol",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "lol2_ssa",
+      "team_id": "lol",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_apac",
+      "team_id": "mlbb",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_eur",
+      "team_id": "mlbb",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_mena",
+      "team_id": "mlbb",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_nam",
+      "team_id": "mlbb",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_oce",
+      "team_id": "mlbb",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_sam",
+      "team_id": "mlbb",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_ssa",
+      "team_id": "mlbb",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_apac",
+      "team_id": "mlbb",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_eur",
+      "team_id": "mlbb",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_mena",
+      "team_id": "mlbb",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_nam",
+      "team_id": "mlbb",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_oce",
+      "team_id": "mlbb",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_sam",
+      "team_id": "mlbb",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_ssa",
+      "team_id": "mlbb",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_apac",
+      "team_id": "overwatch",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_eur",
+      "team_id": "overwatch",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_mena",
+      "team_id": "overwatch",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_nam",
+      "team_id": "overwatch",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_oce",
+      "team_id": "overwatch",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_sam",
+      "team_id": "overwatch",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_ssa",
+      "team_id": "overwatch",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_apac",
+      "team_id": "overwatch",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_eur",
+      "team_id": "overwatch",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_mena",
+      "team_id": "overwatch",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_nam",
+      "team_id": "overwatch",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_oce",
+      "team_id": "overwatch",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_sam",
+      "team_id": "overwatch",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_ssa",
+      "team_id": "overwatch",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_apac",
+      "team_id": "rocketleague",
+      "regional": "apac",
+      "wins": 8
+    },
+    {
+      "id": "rocketleague1_eur",
+      "team_id": "rocketleague",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_mena",
+      "team_id": "rocketleague",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_nam",
+      "team_id": "rocketleague",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_oce",
+      "team_id": "rocketleague",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_sam",
+      "team_id": "rocketleague",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_ssa",
+      "team_id": "rocketleague",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_apac",
+      "team_id": "rocketleague",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_eur",
+      "team_id": "rocketleague",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_mena",
+      "team_id": "rocketleague",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_nam",
+      "team_id": "rocketleague",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_oce",
+      "team_id": "rocketleague",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_sam",
+      "team_id": "rocketleague",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_ssa",
+      "team_id": "rocketleague",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_apac",
+      "team_id": "shadow5",
+      "regional": "apac",
+      "wins": 2
+    },
+    {
+      "id": "shadow51_eur",
+      "team_id": "shadow5",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_mena",
+      "team_id": "shadow5",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_nam",
+      "team_id": "shadow5",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_oce",
+      "team_id": "shadow5",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_sam",
+      "team_id": "shadow5",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_ssa",
+      "team_id": "shadow5",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_apac",
+      "team_id": "shadow5",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_eur",
+      "team_id": "shadow5",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_mena",
+      "team_id": "shadow5",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_nam",
+      "team_id": "shadow5",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_oce",
+      "team_id": "shadow5",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_sam",
+      "team_id": "shadow5",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_ssa",
+      "team_id": "shadow5",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_apac",
+      "team_id": "smashbros",
+      "regional": "apac",
+      "wins": 2
+    },
+    {
+      "id": "smashbros1_eur",
+      "team_id": "smashbros",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_mena",
+      "team_id": "smashbros",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_nam",
+      "team_id": "smashbros",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_oce",
+      "team_id": "smashbros",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_sam",
+      "team_id": "smashbros",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_ssa",
+      "team_id": "smashbros",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_apac",
+      "team_id": "smashbros",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "smashbros2_eur",
+      "team_id": "smashbros",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_mena",
+      "team_id": "smashbros",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_nam",
+      "team_id": "smashbros",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_oce",
+      "team_id": "smashbros",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_sam",
+      "team_id": "smashbros",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_ssa",
+      "team_id": "smashbros",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_apac",
+      "team_id": "starcraft2",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "starcraft21_eur",
+      "team_id": "starcraft2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_mena",
+      "team_id": "starcraft2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_nam",
+      "team_id": "starcraft2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_oce",
+      "team_id": "starcraft2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_sam",
+      "team_id": "starcraft2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_ssa",
+      "team_id": "starcraft2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_apac",
+      "team_id": "starcraft2",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "starcraft22_eur",
+      "team_id": "starcraft2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_mena",
+      "team_id": "starcraft2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_nam",
+      "team_id": "starcraft2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_oce",
+      "team_id": "starcraft2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_sam",
+      "team_id": "starcraft2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_ssa",
+      "team_id": "starcraft2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_apac",
+      "team_id": "truckmaniac",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_eur",
+      "team_id": "truckmaniac",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_mena",
+      "team_id": "truckmaniac",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_nam",
+      "team_id": "truckmaniac",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_oce",
+      "team_id": "truckmaniac",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_sam",
+      "team_id": "truckmaniac",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_ssa",
+      "team_id": "truckmaniac",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_apac",
+      "team_id": "truckmaniac",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_eur",
+      "team_id": "truckmaniac",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_mena",
+      "team_id": "truckmaniac",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_nam",
+      "team_id": "truckmaniac",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_oce",
+      "team_id": "truckmaniac",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_sam",
+      "team_id": "truckmaniac",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_ssa",
+      "team_id": "truckmaniac",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_apac",
+      "team_id": "valorant",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "valorant1_eur",
+      "team_id": "valorant",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_mena",
+      "team_id": "valorant",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_nam",
+      "team_id": "valorant",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_oce",
+      "team_id": "valorant",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_sam",
+      "team_id": "valorant",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_ssa",
+      "team_id": "valorant",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_apac",
+      "team_id": "valorant",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "valorant2_eur",
+      "team_id": "valorant",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_mena",
+      "team_id": "valorant",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_nam",
+      "team_id": "valorant",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_oce",
+      "team_id": "valorant",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_sam",
+      "team_id": "valorant",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_ssa",
+      "team_id": "valorant",
+      "regional": "ssa",
+      "wins": 0
+    }
+  ],
+  "winter_rl": [
+    {
+      "id": "aow1_apac",
+      "team_id": "aow",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "aow1_eur",
+      "team_id": "aow",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "aow1_mena",
+      "team_id": "aow",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "aow1_nam",
+      "team_id": "aow",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "aow1_oce",
+      "team_id": "aow",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "aow1_sam",
+      "team_id": "aow",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "aow1_ssa",
+      "team_id": "aow",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "aow2_apac",
+      "team_id": "aow",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "aow2_eur",
+      "team_id": "aow",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "aow2_mena",
+      "team_id": "aow",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "aow2_nam",
+      "team_id": "aow",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "aow2_oce",
+      "team_id": "aow",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "aow2_sam",
+      "team_id": "aow",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "aow2_ssa",
+      "team_id": "aow",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cod1_apac",
+      "team_id": "cod",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "cod1_eur",
+      "team_id": "cod",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cod1_mena",
+      "team_id": "cod",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cod1_nam",
+      "team_id": "cod",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cod1_oce",
+      "team_id": "cod",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cod1_sam",
+      "team_id": "cod",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cod1_ssa",
+      "team_id": "cod",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cod2_apac",
+      "team_id": "cod",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "cod2_eur",
+      "team_id": "cod",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cod2_mena",
+      "team_id": "cod",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cod2_nam",
+      "team_id": "cod",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cod2_oce",
+      "team_id": "cod",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cod2_sam",
+      "team_id": "cod",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cod2_ssa",
+      "team_id": "cod",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cs21_apac",
+      "team_id": "cs2",
+      "regional": "apac",
+      "wins": 4
+    },
+    {
+      "id": "cs21_eur",
+      "team_id": "cs2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "cs21_mena",
+      "team_id": "cs2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cs21_nam",
+      "team_id": "cs2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cs21_oce",
+      "team_id": "cs2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cs21_sam",
+      "team_id": "cs2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cs21_ssa",
+      "team_id": "cs2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "cs22_apac",
+      "team_id": "cs2",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "cs22_eur",
+      "team_id": "cs2",
+      "regional": "eur",
+      "wins": 1
+    },
+    {
+      "id": "cs22_mena",
+      "team_id": "cs2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "cs22_nam",
+      "team_id": "cs2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "cs22_oce",
+      "team_id": "cs2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "cs22_sam",
+      "team_id": "cs2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "cs22_ssa",
+      "team_id": "cs2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "dota21_apac",
+      "team_id": "dota2",
+      "regional": "apac",
+      "wins": 2
+    },
+    {
+      "id": "dota21_eur",
+      "team_id": "dota2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "dota21_mena",
+      "team_id": "dota2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "dota21_nam",
+      "team_id": "dota2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "dota21_oce",
+      "team_id": "dota2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "dota21_sam",
+      "team_id": "dota2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "dota21_ssa",
+      "team_id": "dota2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "dota22_apac",
+      "team_id": "dota2",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "dota22_eur",
+      "team_id": "dota2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "dota22_mena",
+      "team_id": "dota2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "dota22_nam",
+      "team_id": "dota2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "dota22_oce",
+      "team_id": "dota2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "dota22_sam",
+      "team_id": "dota2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "dota22_ssa",
+      "team_id": "dota2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_apac",
+      "team_id": "fifafc",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "fifafc1_eur",
+      "team_id": "fifafc",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_mena",
+      "team_id": "fifafc",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_nam",
+      "team_id": "fifafc",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_oce",
+      "team_id": "fifafc",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_sam",
+      "team_id": "fifafc",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc1_ssa",
+      "team_id": "fifafc",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_apac",
+      "team_id": "fifafc",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "fifafc2_eur",
+      "team_id": "fifafc",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_mena",
+      "team_id": "fifafc",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_nam",
+      "team_id": "fifafc",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_oce",
+      "team_id": "fifafc",
+      "regional": "oce",
+      "wins": 1
+    },
+    {
+      "id": "fifafc2_sam",
+      "team_id": "fifafc",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "fifafc2_ssa",
+      "team_id": "fifafc",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "lol1_apac",
+      "team_id": "lol",
+      "regional": "apac",
+      "wins": 3
+    },
+    {
+      "id": "lol1_eur",
+      "team_id": "lol",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "lol1_mena",
+      "team_id": "lol",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "lol1_nam",
+      "team_id": "lol",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "lol1_oce",
+      "team_id": "lol",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "lol1_sam",
+      "team_id": "lol",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "lol1_ssa",
+      "team_id": "lol",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "lol2_apac",
+      "team_id": "lol",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "lol2_eur",
+      "team_id": "lol",
+      "regional": "eur",
+      "wins": 1
+    },
+    {
+      "id": "lol2_mena",
+      "team_id": "lol",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "lol2_nam",
+      "team_id": "lol",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "lol2_oce",
+      "team_id": "lol",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "lol2_sam",
+      "team_id": "lol",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "lol2_ssa",
+      "team_id": "lol",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_apac",
+      "team_id": "mlbb",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_eur",
+      "team_id": "mlbb",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_mena",
+      "team_id": "mlbb",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_nam",
+      "team_id": "mlbb",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_oce",
+      "team_id": "mlbb",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_sam",
+      "team_id": "mlbb",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb1_ssa",
+      "team_id": "mlbb",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_apac",
+      "team_id": "mlbb",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_eur",
+      "team_id": "mlbb",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_mena",
+      "team_id": "mlbb",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_nam",
+      "team_id": "mlbb",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_oce",
+      "team_id": "mlbb",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_sam",
+      "team_id": "mlbb",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "mlbb2_ssa",
+      "team_id": "mlbb",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_apac",
+      "team_id": "overwatch",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_eur",
+      "team_id": "overwatch",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_mena",
+      "team_id": "overwatch",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_nam",
+      "team_id": "overwatch",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_oce",
+      "team_id": "overwatch",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_sam",
+      "team_id": "overwatch",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch1_ssa",
+      "team_id": "overwatch",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_apac",
+      "team_id": "overwatch",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "overwatch2_eur",
+      "team_id": "overwatch",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_mena",
+      "team_id": "overwatch",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_nam",
+      "team_id": "overwatch",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_oce",
+      "team_id": "overwatch",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_sam",
+      "team_id": "overwatch",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "overwatch2_ssa",
+      "team_id": "overwatch",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_apac",
+      "team_id": "rocketleague",
+      "regional": "apac",
+      "wins": 5
+    },
+    {
+      "id": "rocketleague1_eur",
+      "team_id": "rocketleague",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_mena",
+      "team_id": "rocketleague",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_nam",
+      "team_id": "rocketleague",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_oce",
+      "team_id": "rocketleague",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_sam",
+      "team_id": "rocketleague",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague1_ssa",
+      "team_id": "rocketleague",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_apac",
+      "team_id": "rocketleague",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "rocketleague2_eur",
+      "team_id": "rocketleague",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_mena",
+      "team_id": "rocketleague",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_nam",
+      "team_id": "rocketleague",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_oce",
+      "team_id": "rocketleague",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_sam",
+      "team_id": "rocketleague",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "rocketleague2_ssa",
+      "team_id": "rocketleague",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_apac",
+      "team_id": "shadow5",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "shadow51_eur",
+      "team_id": "shadow5",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_mena",
+      "team_id": "shadow5",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_nam",
+      "team_id": "shadow5",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_oce",
+      "team_id": "shadow5",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_sam",
+      "team_id": "shadow5",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "shadow51_ssa",
+      "team_id": "shadow5",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_apac",
+      "team_id": "shadow5",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_eur",
+      "team_id": "shadow5",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_mena",
+      "team_id": "shadow5",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_nam",
+      "team_id": "shadow5",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_oce",
+      "team_id": "shadow5",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_sam",
+      "team_id": "shadow5",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "shadow52_ssa",
+      "team_id": "shadow5",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_apac",
+      "team_id": "smashbros",
+      "regional": "apac",
+      "wins": 3
+    },
+    {
+      "id": "smashbros1_eur",
+      "team_id": "smashbros",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_mena",
+      "team_id": "smashbros",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_nam",
+      "team_id": "smashbros",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_oce",
+      "team_id": "smashbros",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_sam",
+      "team_id": "smashbros",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros1_ssa",
+      "team_id": "smashbros",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_apac",
+      "team_id": "smashbros",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_eur",
+      "team_id": "smashbros",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_mena",
+      "team_id": "smashbros",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_nam",
+      "team_id": "smashbros",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_oce",
+      "team_id": "smashbros",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_sam",
+      "team_id": "smashbros",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "smashbros2_ssa",
+      "team_id": "smashbros",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_apac",
+      "team_id": "starcraft2",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_eur",
+      "team_id": "starcraft2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_mena",
+      "team_id": "starcraft2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_nam",
+      "team_id": "starcraft2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_oce",
+      "team_id": "starcraft2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_sam",
+      "team_id": "starcraft2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft21_ssa",
+      "team_id": "starcraft2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_apac",
+      "team_id": "starcraft2",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_eur",
+      "team_id": "starcraft2",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_mena",
+      "team_id": "starcraft2",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_nam",
+      "team_id": "starcraft2",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_oce",
+      "team_id": "starcraft2",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_sam",
+      "team_id": "starcraft2",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "starcraft22_ssa",
+      "team_id": "starcraft2",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_apac",
+      "team_id": "truckmaniac",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "truckmaniac1_eur",
+      "team_id": "truckmaniac",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_mena",
+      "team_id": "truckmaniac",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_nam",
+      "team_id": "truckmaniac",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_oce",
+      "team_id": "truckmaniac",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_sam",
+      "team_id": "truckmaniac",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac1_ssa",
+      "team_id": "truckmaniac",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_apac",
+      "team_id": "truckmaniac",
+      "regional": "apac",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_eur",
+      "team_id": "truckmaniac",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_mena",
+      "team_id": "truckmaniac",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_nam",
+      "team_id": "truckmaniac",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_oce",
+      "team_id": "truckmaniac",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_sam",
+      "team_id": "truckmaniac",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "truckmaniac2_ssa",
+      "team_id": "truckmaniac",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_apac",
+      "team_id": "valorant",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "valorant1_eur",
+      "team_id": "valorant",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_mena",
+      "team_id": "valorant",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_nam",
+      "team_id": "valorant",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_oce",
+      "team_id": "valorant",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_sam",
+      "team_id": "valorant",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "valorant1_ssa",
+      "team_id": "valorant",
+      "regional": "ssa",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_apac",
+      "team_id": "valorant",
+      "regional": "apac",
+      "wins": 1
+    },
+    {
+      "id": "valorant2_eur",
+      "team_id": "valorant",
+      "regional": "eur",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_mena",
+      "team_id": "valorant",
+      "regional": "mena",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_nam",
+      "team_id": "valorant",
+      "regional": "nam",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_oce",
+      "team_id": "valorant",
+      "regional": "oce",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_sam",
+      "team_id": "valorant",
+      "regional": "sam",
+      "wins": 0
+    },
+    {
+      "id": "valorant2_ssa",
+      "team_id": "valorant",
+      "regional": "ssa",
+      "wins": 0
+    }
+  ],
+  "majors": [
+    {
+      "team_id": "aow",
+      "spring_wins": 0,
+      "summer_wins": 0,
+      "winter_wins": 0
+    },
+    {
+      "team_id": "cod",
+      "spring_wins": 1,
+      "summer_wins": 0,
+      "winter_wins": 1
+    },
+    {
+      "team_id": "cs2",
+      "spring_wins": 4,
+      "summer_wins": 2,
+      "winter_wins": 1
+    },
+    {
+      "team_id": "dota2",
+      "spring_wins": 8,
+      "summer_wins": 6,
+      "winter_wins": 4
+    },
+    {
+      "team_id": "fifafc",
+      "spring_wins": 3,
+      "summer_wins": 1,
+      "winter_wins": 1
+    },
+    {
+      "team_id": "lol",
+      "spring_wins": 1,
+      "summer_wins": 3,
+      "winter_wins": 4
+    },
+    {
+      "team_id": "mlbb",
+      "spring_wins": 0,
+      "summer_wins": 1,
+      "winter_wins": 0
+    },
+    {
+      "team_id": "overwatch",
+      "spring_wins": 0,
+      "summer_wins": 0,
+      "winter_wins": 0
+    },
+    {
+      "team_id": "rocketleague",
+      "spring_wins": 0,
+      "summer_wins": 3,
+      "winter_wins": 2
+    },
+    {
+      "team_id": "shadow5",
+      "spring_wins": 1,
+      "summer_wins": 0,
+      "winter_wins": 1
+    },
+    {
+      "team_id": "smashbros",
+      "spring_wins": 0,
+      "summer_wins": 0,
+      "winter_wins": 0
+    },
+    {
+      "team_id": "starcraft2",
+      "spring_wins": 0,
+      "summer_wins": 0,
+      "winter_wins": 1
+    },
+    {
+      "team_id": "truckmaniac",
+      "spring_wins": 0,
+      "summer_wins": 0,
+      "winter_wins": 0
+    },
+    {
+      "team_id": "valorant",
+      "spring_wins": 1,
+      "summer_wins": 0,
+      "winter_wins": 0
+    }
+  ],
+  "worlds": [
+    {
+      "team_id": "aow",
+      "wins": 0
+    },
+    {
+      "team_id": "cod",
+      "wins": 0
+    },
+    {
+      "team_id": "cs2",
+      "wins": 2
+    },
+    {
+      "team_id": "dota2",
+      "wins": 8
+    },
+    {
+      "team_id": "fifafc",
+      "wins": 1
+    },
+    {
+      "team_id": "lol",
+      "wins": 5
+    },
+    {
+      "team_id": "mlbb",
+      "wins": 1
+    },
+    {
+      "team_id": "overwatch",
+      "wins": 0
+    },
+    {
+      "team_id": "rocketleague",
+      "wins": 4
+    },
+    {
+      "team_id": "shadow5",
+      "wins": 0
+    },
+    {
+      "team_id": "smashbros",
+      "wins": 0
+    },
+    {
+      "team_id": "starcraft2",
+      "wins": 2
+    },
+    {
+      "team_id": "truckmaniac",
+      "wins": 0
+    },
+    {
+      "team_id": "valorant",
+      "wins": 0
+    }
+  ],
+  "legends": [
+    {
+      "name": "Ockof",
+      "team": "dota2",
+      "age": "30",
+      "pos": "dota2_carry",
+      "status": "main",
+      "current_team": "Dplus Kia",
+      "achievement": "3 times The International Winner; 4 times Regional Splits Winner - APAC; 6 Majors",
+      "time_played": "4 years",
+      "id": 1
+    },
+    {
+      "name": "Sastep",
+      "team": "dota2",
+      "age": "27",
+      "pos": "dota2_carry",
+      "status": "main",
+      "current_team": "JD Gaming",
+      "achievement": "2 times The International Winner; 4 times Regional Splits Winner - APAC; 4 Majors",
+      "time_played": "3 years",
+      "id": 2
+    },
+    {
+      "name": "Cast",
+      "team": "dota2",
+      "age": "28",
+      "pos": "dota2_midlane",
+      "status": "main",
+      "current_team": "G2 Esports",
+      "achievement": "5 times The International Winner; 8 times Regional Splits Winner - APAC; 10 Majors",
+      "time_played": "6.5 years",
+      "id": 3
+    },
+    {
+      "name": "Qoselp",
+      "team": "dota2",
+      "age": "28",
+      "pos": "dota2_offlane",
+      "status": "main",
+      "current_team": "Hellbound Esports",
+      "achievement": "6 times The International Winner; 8 times Regional Splits Winner - APAC; 12 Majors",
+      "time_played": "9 years",
+      "id": 4
+    },
+    {
+      "name": "Qan",
+      "team": "dota2",
+      "age": "33",
+      "pos": "dota2_roamer",
+      "status": "retired",
+      "current_team": "",
+      "achievement": "First Winner of The International; 3 times Regional Splits Winner - APAC; 3 Majors",
+      "time_played": "8 years",
+      "id": 5
+    },
+    {
+      "name": "Brunilp",
+      "team": "dota2",
+      "age": 29,
+      "pos": "dota2_roamer",
+      "status": "retired",
+      "current_team": "",
+      "achievement": "4 times The International Winner; 5 times Regional Splits Winner - APAC; 9 Majors",
+      "time_played": "6 years",
+      "id": 6,
+      "position": "dota2_roamer"
+    },
+    {
+      "name": "Draquck",
+      "team": "dota2",
+      "age": "20",
+      "pos": "dota2_roamer",
+      "status": "main",
+      "current_team": "Hellbound Esports",
+      "achievement": "3 times The International Winner; 4 times Regional Splits Winner - APAC; 5 Majors",
+      "time_played": "4 years",
+      "id": 7
+    },
+    {
+      "name": "Gagest",
+      "team": "dota2",
+      "age": "31",
+      "pos": "dota2_support",
+      "status": "retired",
+      "current_team": "",
+      "achievement": "4 times The International Winner; 8 times Regional Splits Winner - APAC; 9 Majors",
+      "time_played": "10 years",
+      "id": 8
+    },
+    {
+      "name": "Jyck",
+      "team": "dota2",
+      "age": "25",
+      "pos": "dota2_support",
+      "status": "main",
+      "current_team": "Hellbound Esports",
+      "achievement": "5 times The International Winner; 5 times Regional Splits Winner - APAC; 9 Majors",
+      "time_played": "6 years",
+      "id": 9
+    },
+    {
+      "name": "Vustiw",
+      "team": "dota2",
+      "age": "34",
+      "pos": "dota2_carry",
+      "status": "retired",
+      "current_team": "",
+      "achievement": "2 times The International Winner; 4 times Regional Splits Winner - APAC; 5 Majors",
+      "time_played": "7 years",
+      "id": 10
+    },
+    {
+      "name": "Pack1",
+      "team": "fifafc",
+      "age": "34",
+      "pos": "player",
+      "status": "retired",
+      "current_team": "",
+      "achievement": "First Worlds Winner of Hellbound Esports; 5 times Regional Splits Winner APAC; 3 times Regional Splits League 2 Winner APAC; 3 Majors",
+      "time_played": "11 years",
+      "id": 11
+    },
+    {
+      "name": "Frik",
+      "team": "lol",
+      "age": "25",
+      "pos": "lol_top",
+      "status": "main",
+      "current_team": "Hellbound Esports",
+      "achievement": "5 times Worlds Winner; 8 times Regional Splits Winner - APAC; 6 Majors",
+      "time_played": "10 years",
+      "id": 12
+    },
+    {
+      "name": "Facak",
+      "team": "lol",
+      "age": "25",
+      "pos": "lol_jungle",
+      "status": "main",
+      "current_team": "Hellbound Esports",
+      "achievement": "5 times Worlds Winner; 7 times Regional Splits Winner - APAC; 6 Majors",
+      "time_played": "9.5 years",
+      "id": 13
+    },
+    {
+      "name": "Prep",
+      "team": "lol",
+      "age": "23",
+      "pos": "lol_mid",
+      "status": "main",
+      "current_team": "Hellbound Esports",
+      "achievement": "3 times Worlds Winner; 6 times Regional Splits Winner - APAC; 5 Majors",
+      "time_played": "3.5 years",
+      "id": 14
+    },
+    {
+      "name": "Jog",
+      "team": "lol",
+      "age": "34",
+      "pos": "lol_bot",
+      "status": "retired",
+      "current_team": "",
+      "achievement": "Team's Worlds first time; 3 times Regional Splits Winner - APAC; 2 Majors",
+      "time_played": "8 years",
+      "id": 15
+    },
+    {
+      "name": "Spyspek",
+      "team": "lol",
+      "age": "30",
+      "pos": "lol_bot",
+      "status": "main",
+      "current_team": "T1",
+      "achievement": "2 times Worlds Winner; 2 times Regional Splits Winner - APAC; 1 Major",
+      "time_played": "4 years",
+      "id": 16
+    },
+    {
+      "name": "Cyl",
+      "team": "lol",
+      "age": "24",
+      "pos": "lol_bot",
+      "status": "main",
+      "current_team": "Hellbound Esports",
+      "achievement": "3 times Worlds Winner; 6 times Regional Splits Winner - APAC; 5 Majors",
+      "time_played": "5 years",
+      "id": 17
+    },
+    {
+      "name": "Sush",
+      "team": "lol",
+      "age": "29",
+      "pos": "lol_support",
+      "status": "main",
+      "current_team": "JD Gaming",
+      "achievement": "2 times Worlds Winner; 4 times Regional Splits Winner - APAC; 1 Major",
+      "time_played": "7 years",
+      "id": 18
+    },
+    {
+      "name": "Egul",
+      "team": "lol",
+      "age": "21",
+      "pos": "lol_support",
+      "status": "main",
+      "current_team": "Hellbound Esports",
+      "achievement": "2 times Worlds Winner; 4 times Regional Splits Winner - APAC; 4 Majors",
+      "time_played": "3 years",
+      "id": 19
+    },
+    {
+      "name": "Jih",
+      "team": "rocketleague",
+      "age": "34",
+      "pos": "player",
+      "status": "retired",
+      "current_team": "",
+      "achievement": "1 time Worlds Winner; 8 times Regional Splits Winner - APAC; 1 Major",
+      "time_played": "5.5 years",
+      "id": 20
+    },
+    {
+      "name": "Icesh",
+      "team": "rocketleague",
+      "age": "30",
+      "pos": "player",
+      "status": "retired",
+      "current_team": "",
+      "achievement": "2 times Worlds Winner; 12 times Regional Splits Winner - APAC; 1 Major",
+      "time_played": "7 years",
+      "id": 21
+    },
+    {
+      "name": "Ishup",
+      "team": "rocketleague",
+      "age": "30",
+      "pos": "player",
+      "status": "retired",
+      "current_team": "",
+      "achievement": "1 time Worlds Winner; 9 times Regional Splits Winner - APAC; 1 Major",
+      "time_played": "5 years",
+      "id": 22
+    }
+  ]
+}

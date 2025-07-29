@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/dexie@latest/dist/dexie.min.js"></script>
+    <script src="/admin/js/database/db.js"></script>
+    <script src="/admin/js/database/esportsteams.js"></script>
+    <script src="/admin/js/database/spring_rl.js"></script>
+    <script src="/admin/js/database/summer_rl.js"></script>
+    <script src="/admin/js/database/winter_rl.js"></script>
+    <script src="/admin/js/database/majors.js"></script>
+    <script src="/admin/js/database/worlds.js"></script>
+    <script src="/admin/js/database/regional.js"></script>
+    <script src="/admin/js/database/showdb.js"></script>
+    <script src="/admin/js/script.js"></script>
+    <link href="/admin/css/header.css" rel="stylesheet">
+    <link href="/admin/css/admint.css" rel="stylesheet">
+    <title>Admin - Trophies</title>
+</head>
+<div id="header"></div>
+<body>
+    
+</div>
+<div class="cup_zone">
+    <div id="table_zone">
+        <div id="table_spring">
+            <h2>Show Spring Trophies</h2>
+            <div id="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            <th>Region</th>
+                            <th>League Rank</th>
+                            <th>Trophies</th>
+                        </tr>
+                    </thead>
+                    <tbody id="spring_trophy_list"></tbody>
+                </table>
+            </div>
+            
+            <button onclick="deleteRegions()">Delete Regions</button>
+            <button onclick="addSpringData()">Add Spring Data</button>
+            <button onclick="addRegions()">Add Regions</button>
+        </div>
+    
+        <div id="table_summer">
+            <h2>Show Summer Trophies</h2>
+            <div id="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            <th>Region</th>
+                            <th>League Rank</th>
+                            <th>Trophies</th>
+                        </tr>
+                    </thead>
+                    <tbody id="summer_trophy_list"></tbody>
+                </table>
+            </div>
+            
+            <button onclick="deleteRegions()">Delete Regions</button>
+            <button onclick="addSummerData()">Add Summer Data</button>
+            <button onclick="addRegions()">Add Regions</button>
+        </div>
+    
+        <div id="table_winter">
+            <h2>Show Winter Trophies</h2>
+            <div id="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            <th>Region</th>
+                            <th>League Rank</th>
+                            <th>Trophies</th>
+                        </tr>
+                    </thead>
+                    <tbody id="winter_trophy_list"></tbody>
+                </table>
+            </div>
+            
+            <button onclick="deleteRegions()">Delete Regions</button>
+            <button onclick="addWinterData()">Add Winter Data</button>
+            <button onclick="addRegions()">Add Regions</button>
+        </div>
+
+        <div id="table_majors">
+            <h2>Show Major Trophies</h2>
+            <div id="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            <th>Spring</th>
+                            <th>Summer</th>
+                            <th>Winter</th>
+                        </tr>
+                    </thead>
+                    <tbody id="major_trophy_list"></tbody>
+                </table>
+            </div>
+            <button onclick="addMajorData()">Add Major Data</button>
+        </div>
+
+        <div id="table_worlds">
+            <h2>Show Worlds Trophies</h2>
+            <div id="content">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Team</th>
+                            <th>Wins</th>
+                        </tr>
+                    </thead>
+                    <tbody id="world_trophy_list"></tbody>
+                </table>
+            </div>
+            <button onclick="addWorldsData()">Add Worlds Data</button>
+        </div>
+    </div>
+    <div id="form">
+        <h2>Add Cup</h2>
+        <form id="add_trophy">
+            <label for="team">eSports team:</label>
+            <select name="team" id="team"></select>
+            <br><label for="rank">Tournament Rank:</label>
+            <select name="rank" id="rank">
+                <option value="l1" id="l1">League 1</option>
+                <option value="l2" id="l2">League 2</option>
+                <option value="major" id="major">Major</option>
+                <option value="worlds" id="worlds">Worlds</option>
+            </select>
+            <br><label for="region">Region:</label>
+            <select name="region" id="region"></select>
+            <br><label for="season">Tournament Season:</label>
+            <select name="season" id="season">
+                <option value="winter" id="winter">Winter</option>
+                <option value="spring" id="spring">Spring</option>
+                <option value="summer" id="summer">Summer</option>
+            </select>
+            <br><input type="submit" value="Add" class="btn">
+        </form>
+
+        <h2>Minus Cup</h2>
+        <form id="minus_trophy">
+            <label for="team">eSports team:</label>
+            <select name="team" id="minus_team"></select>
+            <br><label for="rank">Tournament Rank:</label>
+            <select name="rank" id="minus_rank">
+                <option value="l1" id="l1">League 1</option>
+                <option value="l2" id="l2">League 2</option>
+                <option value="major" id="major">Major</option>
+                <option value="worlds" id="worlds">Worlds</option>
+            </select>
+            <br><label for="region">Region:</label>
+            <select name="region" id="minus_region"></select>
+            <br><label for="season">Tournament Season:</label>
+            <select name="season" id="minus_season">
+                <option value="winter" id="winter">Winter</option>
+                <option value="spring" id="spring">Spring</option>
+                <option value="summer" id="summer">Summer</option>
+            </select>
+            <br><input type="submit" value="Minus" class="btn">
+        </form>
+    </div>
+</body>
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const rankSelect = document.getElementById('rank');
+        const regionSelect = document.getElementById('region');
+        const seasonSelect = document.getElementById('season');
+
+        function updateSelectStates() {
+            const selectedRank = rankSelect.value;
+
+            if (selectedRank === 'worlds') {
+                regionSelect.disabled = true;
+                seasonSelect.disabled = true;
+            } else if (selectedRank === 'major') {
+                regionSelect.disabled = true;
+                seasonSelect.disabled = false;
+            } else {
+                regionSelect.disabled = false;
+                seasonSelect.disabled = false;
+            }
+        }
+
+        updateSelectStates();
+        rankSelect.addEventListener('change', updateSelectStates);
+    });
+
+    document.addEventListener('DOMContentLoaded', () => {
+        const rankSelect = document.getElementById('minus_rank');
+        const regionSelect = document.getElementById('minus_region');
+        const seasonSelect = document.getElementById('minus_season');
+
+        function updateSelectStates() {
+            const selectedRank = rankSelect.value;
+
+            if (selectedRank === 'worlds') {
+                regionSelect.disabled = true;
+                seasonSelect.disabled = true;
+            } else if (selectedRank === 'major') {
+                regionSelect.disabled = true;
+                seasonSelect.disabled = false;
+            } else {
+                regionSelect.disabled = false;
+                seasonSelect.disabled = false;
+            }
+        }
+        
+        updateSelectStates();
+        rankSelect.addEventListener('change', updateSelectStates);
+    });
+
+    document.getElementById('add_trophy').addEventListener('submit', async (e) => { 
+        const form = e.target;
+
+        const team = form.team.value;
+        const league_rank = form.rank.value;
+
+        if (league_rank === 'l1' || league_rank === 'l2'){
+            const region = form.region.value;
+            const season = form.season.value;
+            switch (season){
+                case 'spring':
+                    const spring = await db.spring_rl.toArray();
+                    
+                    if (league_rank === 'l1'){
+                        const spring_l1 = spring.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '1')
+
+                        for (const data of spring_l1){
+                            const new_trophy = data.wins + 1;
+                            await db.spring_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                    else {
+                        const spring_l2 = spring.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '2')
+
+                        for (const data of spring_l2){
+                            const new_trophy = data.wins + 1;
+                            await db.spring_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                    break;
+                case 'summer':
+                    const summer = await db.summer_rl.toArray();
+                    
+                    if (league_rank === 'l1'){
+                        const summer_l1 = summer.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '1')
+
+                        for (const data of summer_l1){
+                            const new_trophy = data.wins + 1;
+                            await db.summer_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                    else {
+                        const summer_l2 = summer.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '2')
+
+                        for (const data of summer_l2){
+                            const new_trophy = data.wins + 1;
+                            await db.summer_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                    break;
+                case 'winter':
+                    const winter = await db.winter_rl.toArray();
+                    
+                    if (league_rank === 'l1'){
+                        const winter_l1 = winter.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '1')
+
+                        for (const data of winter_l1){
+                            const new_trophy = data.wins + 1;
+                            await db.winter_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                    else {
+                        const winter_l2 = winter.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '2')
+
+                        for (const data of winter_l2){
+                            const new_trophy = data.wins + 1;
+                            await db.winter_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                        
+                    break;
+            }
+        }
+        else if (league_rank === 'major'){
+            const season = form.season.value;
+            const major = await db.majors.where('team_id').equals(team).toArray();
+            switch (season){
+                case 'spring':
+                    for (const data of major){
+                        const new_trophy = data.spring_wins + 1;
+                        await db.majors.update(data.team_id, {spring_wins: new_trophy})
+                    }
+                    break;
+                case 'summer':
+                    for (const data of major){
+                        const new_trophy = data.summer_wins + 1;
+                        await db.majors.update(data.team_id, {summer_wins: new_trophy})
+                    }
+                    break;
+                case 'winter':
+                    for (const data of major){
+                        const new_trophy = data.winter_wins + 1;
+                        await db.majors.update(data.team_id, {winter_wins: new_trophy})
+                    }   
+                    break;
+            }
+        }
+        else if (league_rank === 'worlds'){
+            const worlds = await db.worlds.where('team_id').equals(team).toArray();
+            
+            for (const data of worlds){
+                const new_trophy = data.wins + 1;
+                await db.worlds.update(data.team_id, {wins: new_trophy})
+            }      
+        }
+    })
+
+    document.getElementById('minus_trophy').addEventListener('submit', async (e) => { 
+        const form = e.target;
+
+        const team = form.team.value;
+        const league_rank = form.rank.value;
+
+        if (league_rank === 'l1' || league_rank === 'l2'){
+            const region = form.region.value;
+            const season = form.season.value;
+            switch (season){
+                case 'spring':
+                    const spring = await db.spring_rl.toArray();
+                    
+                    if (league_rank === 'l1'){
+                        const spring_l1 = spring.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '1')
+
+                        for (const data of spring_l1){
+                            const new_trophy = data.wins - 1;
+                            await db.spring_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                    else {
+                        const spring_l2 = spring.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '2')
+
+                        for (const data of spring_l2){
+                            const new_trophy = data.wins - 1;
+                            await db.spring_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                    break;
+                case 'summer':
+                    const summer = await db.summer_rl.toArray();
+                    
+                    if (league_rank === 'l1'){
+                        const summer_l1 = summer.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '1')
+
+                        for (const data of summer_l1){
+                            const new_trophy = data.wins - 1;
+                            await db.summer_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                    else {
+                        const summer_l2 = summer.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '2')
+
+                        for (const data of summer_l2){
+                            const new_trophy = data.wins - 1;
+                            await db.summer_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                    break;
+                case 'winter':
+                    const winter = await db.winter_rl.toArray();
+                    
+                    if (league_rank === 'l1'){
+                        const winter_l1 = winter.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '1')
+
+                        for (const data of winter_l1){
+                            const new_trophy = data.wins - 1;
+                            await db.winter_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                    else {
+                        const winter_l2 = winter.filter(item => item.team_id === team && item.regional === region && item.id.toString().match(/\d(?!.*\d)/)[0] === '2')
+
+                        for (const data of winter_l2){
+                            const new_trophy = data.wins - 1;
+                            await db.winter_rl.update(data.id, {wins: new_trophy})
+                        }
+                    }
+                        
+                    break;
+            }
+        }
+        else if (league_rank === 'major'){
+            const season = form.season.value;
+            const major = await db.majors.where('team_id').equals(team).toArray();
+            switch (season){
+                case 'spring':
+                    for (const data of major){
+                        const new_trophy = data.spring_wins - 1;
+                        await db.majors.update(data.team_id, {spring_wins: new_trophy})
+                    }
+                    break;
+                case 'summer':
+                    for (const data of major){
+                        const new_trophy = data.summer_wins - 1;
+                        await db.majors.update(data.team_id, {summer_wins: new_trophy})
+                    }
+                    break;
+                case 'winter':
+                    for (const data of major){
+                        const new_trophy = data.winter_wins - 1;
+                        await db.majors.update(data.team_id, {winter_wins: new_trophy})
+                    }   
+                    break;
+            }
+        }
+        else if (league_rank === 'worlds'){
+            const worlds = await db.worlds.where('team_id').equals(team).toArray();
+            
+            for (const data of worlds){
+                const new_trophy = data.wins - 1;
+                await db.worlds.update(data.team_id, {wins: new_trophy})
+            }      
+        }
+    })
+</script>
+</html>
